@@ -1,0 +1,35 @@
+{
+  "title": "LearnFlow-Chain: reference implementation of privacy-preserving cross-institution item calibration",
+  "upload_type": "software",
+  "publication_date": "2026-11-09",
+  "version": "1.0.0",
+  "description": "Reference implementation accompanying the manuscript 'LearnFlow-Chain: Task-Bound Purpose Enforcement and Ledger-Anchored Provenance for Privacy-Preserving Cross-Institution Item Calibration' (submitted to Cluster Computing). Contains the Python policy engine, zCDP budget ledger, Rasch calibration and dataset builders, the Hyperledger Fabric chaincode and gateway, all experiment scripts, raw result files and the frozen experiment protocol. Public learning logs are not redistributed; see the README for how to obtain them.",
+  "creators": [
+    {
+      "name": "Zhang, Jing",
+      "affiliation": "Youngsan University",
+      "orcid": "0009-0000-4828-2869"
+    },
+    {
+      "name": "Weng, Zexiao",
+      "affiliation": "Youngsan University",
+      "orcid": "0009-0009-8600-8954"
+    },
+    {
+      "name": "Kim, Jin-whan",
+      "affiliation": "Youngsan University"
+    }
+  ],
+  "keywords": [
+    "differential privacy",
+    "federated learning",
+    "permissioned distributed ledger",
+    "item response theory",
+    "Hyperledger Fabric",
+    "data provenance",
+    "purpose-based access control"
+  ],
+  "access_right": "open",
+  "license": "Apache-2.0",
+  "related_identifiers": []
+}

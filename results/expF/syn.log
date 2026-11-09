@@ -1,0 +1,67 @@
+[06:59:35] SYN-K10-nonIID seed=20261018
+  clip rates: {"dataset": "SYN-K10-nonIID", "n_users": 3000, "count_clip_fraction": {"2.0": 1.0, "4.0": 1.0, "8.0": 0.023333333333333334}, "grad_clip_fraction": {"0.25": 1.0, "0.5": 0.9993333333333333, "1.0": 0.994, "2.0": 0.811}}
+  SYN-K10-nonIID s=20261018 C=0.25 Cn=2.0 clip=1.000 auc=0.7793 rmse=0.7951
+  SYN-K10-nonIID s=20261018 C=0.25 Cn=4.0 clip=1.000 auc=0.7700 rmse=0.8570
+  SYN-K10-nonIID s=20261018 C=0.25 Cn=8.0 clip=1.000 auc=0.7542 rmse=0.9482
+  SYN-K10-nonIID s=20261018 C=0.5 Cn=2.0 clip=1.000 auc=0.7795 rmse=0.8290
+  SYN-K10-nonIID s=20261018 C=0.5 Cn=4.0 clip=1.000 auc=0.7779 rmse=0.8329
+  SYN-K10-nonIID s=20261018 C=0.5 Cn=8.0 clip=1.000 auc=0.7687 rmse=0.8893
+  SYN-K10-nonIID s=20261018 C=1.0 Cn=2.0 clip=0.996 auc=0.7763 rmse=0.9022
+  SYN-K10-nonIID s=20261018 C=1.0 Cn=4.0 clip=0.996 auc=0.7786 rmse=0.8644
+  SYN-K10-nonIID s=20261018 C=1.0 Cn=8.0 clip=0.996 auc=0.7764 rmse=0.8680
+  SYN-K10-nonIID s=20261018 C=2.0 Cn=2.0 clip=0.855 auc=0.7722 rmse=0.9855
+  SYN-K10-nonIID s=20261018 C=2.0 Cn=4.0 clip=0.854 auc=0.7753 rmse=0.9360
+  SYN-K10-nonIID s=20261018 C=2.0 Cn=8.0 clip=0.855 auc=0.7767 rmse=0.9027
+[06:59:39] SYN-K10-nonIID seed=20261019
+  SYN-K10-nonIID s=20261019 C=0.25 Cn=2.0 clip=1.000 auc=0.7735 rmse=0.8506
+  SYN-K10-nonIID s=20261019 C=0.25 Cn=4.0 clip=1.000 auc=0.7654 rmse=0.8984
+  SYN-K10-nonIID s=20261019 C=0.25 Cn=8.0 clip=1.000 auc=0.7510 rmse=0.9815
+  SYN-K10-nonIID s=20261019 C=0.5 Cn=2.0 clip=1.000 auc=0.7734 rmse=0.9158
+  SYN-K10-nonIID s=20261019 C=0.5 Cn=4.0 clip=1.000 auc=0.7726 rmse=0.9158
+  SYN-K10-nonIID s=20261019 C=0.5 Cn=8.0 clip=1.000 auc=0.7648 rmse=0.9668
+  SYN-K10-nonIID s=20261019 C=1.0 Cn=2.0 clip=0.995 auc=0.7703 rmse=1.0011
+  SYN-K10-nonIID s=20261019 C=1.0 Cn=4.0 clip=0.995 auc=0.7728 rmse=0.9705
+  SYN-K10-nonIID s=20261019 C=1.0 Cn=8.0 clip=0.995 auc=0.7714 rmse=0.9783
+  SYN-K10-nonIID s=20261019 C=2.0 Cn=2.0 clip=0.868 auc=0.7665 rmse=1.0813
+  SYN-K10-nonIID s=20261019 C=2.0 Cn=4.0 clip=0.867 auc=0.7696 rmse=1.0425
+  SYN-K10-nonIID s=20261019 C=2.0 Cn=8.0 clip=0.868 auc=0.7712 rmse=1.0211
+[06:59:44] SYN-K10-nonIID seed=20261020
+  SYN-K10-nonIID s=20261020 C=0.25 Cn=2.0 clip=1.000 auc=0.7866 rmse=0.7957
+  SYN-K10-nonIID s=20261020 C=0.25 Cn=4.0 clip=1.000 auc=0.7783 rmse=0.8564
+  SYN-K10-nonIID s=20261020 C=0.25 Cn=8.0 clip=1.000 auc=0.7644 rmse=0.9427
+  SYN-K10-nonIID s=20261020 C=0.5 Cn=2.0 clip=1.000 auc=0.7872 rmse=0.8150
+  SYN-K10-nonIID s=20261020 C=0.5 Cn=4.0 clip=1.000 auc=0.7860 rmse=0.8241
+  SYN-K10-nonIID s=20261020 C=0.5 Cn=8.0 clip=1.000 auc=0.7779 rmse=0.8824
+  SYN-K10-nonIID s=20261020 C=1.0 Cn=2.0 clip=0.995 auc=0.7847 rmse=0.8756
+  SYN-K10-nonIID s=20261020 C=1.0 Cn=4.0 clip=0.995 auc=0.7868 rmse=0.8450
+  SYN-K10-nonIID s=20261020 C=1.0 Cn=8.0 clip=0.995 auc=0.7850 rmse=0.8561
+  SYN-K10-nonIID s=20261020 C=2.0 Cn=2.0 clip=0.854 auc=0.7815 rmse=0.9495
+  SYN-K10-nonIID s=20261020 C=2.0 Cn=4.0 clip=0.855 auc=0.7841 rmse=0.9059
+  SYN-K10-nonIID s=20261020 C=2.0 Cn=8.0 clip=0.857 auc=0.7854 rmse=0.8806
+[06:59:48] SYN-K10-nonIID seed=20261021
+  SYN-K10-nonIID s=20261021 C=0.25 Cn=2.0 clip=1.000 auc=0.7763 rmse=0.8160
+  SYN-K10-nonIID s=20261021 C=0.25 Cn=4.0 clip=1.000 auc=0.7651 rmse=0.8881
+  SYN-K10-nonIID s=20261021 C=0.25 Cn=8.0 clip=1.000 auc=0.7476 rmse=0.9830
+  SYN-K10-nonIID s=20261021 C=0.5 Cn=2.0 clip=1.000 auc=0.7772 rmse=0.8354
+  SYN-K10-nonIID s=20261021 C=0.5 Cn=4.0 clip=1.000 auc=0.7750 rmse=0.8543
+  SYN-K10-nonIID s=20261021 C=0.5 Cn=8.0 clip=1.000 auc=0.7644 rmse=0.9205
+  SYN-K10-nonIID s=20261021 C=1.0 Cn=2.0 clip=0.991 auc=0.7741 rmse=0.8941
+  SYN-K10-nonIID s=20261021 C=1.0 Cn=4.0 clip=0.991 auc=0.7764 rmse=0.8725
+  SYN-K10-nonIID s=20261021 C=1.0 Cn=8.0 clip=0.991 auc=0.7737 rmse=0.8898
+  SYN-K10-nonIID s=20261021 C=2.0 Cn=2.0 clip=0.869 auc=0.7700 rmse=0.9628
+  SYN-K10-nonIID s=20261021 C=2.0 Cn=4.0 clip=0.869 auc=0.7731 rmse=0.9272
+  SYN-K10-nonIID s=20261021 C=2.0 Cn=8.0 clip=0.871 auc=0.7745 rmse=0.9083
+[06:59:52] SYN-K10-nonIID seed=20261022
+  SYN-K10-nonIID s=20261022 C=0.25 Cn=2.0 clip=1.000 auc=0.7648 rmse=0.8133
+  SYN-K10-nonIID s=20261022 C=0.25 Cn=4.0 clip=1.000 auc=0.7555 rmse=0.8493
+  SYN-K10-nonIID s=20261022 C=0.25 Cn=8.0 clip=1.000 auc=0.7411 rmse=0.9166
+  SYN-K10-nonIID s=20261022 C=0.5 Cn=2.0 clip=1.000 auc=0.7649 rmse=0.8959
+  SYN-K10-nonIID s=20261022 C=0.5 Cn=4.0 clip=1.000 auc=0.7633 rmse=0.8754
+  SYN-K10-nonIID s=20261022 C=0.5 Cn=8.0 clip=1.000 auc=0.7546 rmse=0.9048
+  SYN-K10-nonIID s=20261022 C=1.0 Cn=2.0 clip=0.994 auc=0.7617 rmse=1.0063
+  SYN-K10-nonIID s=20261022 C=1.0 Cn=4.0 clip=0.994 auc=0.7639 rmse=0.9524
+  SYN-K10-nonIID s=20261022 C=1.0 Cn=8.0 clip=0.994 auc=0.7619 rmse=0.9330
+  SYN-K10-nonIID s=20261022 C=2.0 Cn=2.0 clip=0.888 auc=0.7579 rmse=1.1107
+  SYN-K10-nonIID s=20261022 C=2.0 Cn=4.0 clip=0.888 auc=0.7607 rmse=1.0521
+  SYN-K10-nonIID s=20261022 C=2.0 Cn=8.0 clip=0.889 auc=0.7621 rmse=1.0032
+done

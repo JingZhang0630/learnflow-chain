@@ -1,0 +1,49 @@
+{
+  "tag": "d1792393462r1",
+  "strategy": "batch",
+  "batch": 100,
+  "concurrency": 16,
+  "duration_s": 120,
+  "warmup_s": 15,
+  "committed_tx": 11724,
+  "failed_tx": 0,
+  "records": 1172400,
+  "committed_tx_all": 13296,
+  "records_all": 1329600,
+  "tx_per_s": 97.7,
+  "records_per_s": 9770,
+  "lat_mean_ms": 163.4323292799386,
+  "lat_p50_ms": 178.052885,
+  "lat_p95_ms": 247.493912,
+  "lat_p99_ms": 304.696933,
+  "error_rate": 0,
+  "errors": {},
+  "rep": 1,
+  "ledger_bytes_before": 423997440,
+  "ledger_bytes_after": 482877440,
+  "ledger_growth_bytes": 58880000,
+  "resources": {
+    "peer0.org1.example.com": {
+      "cpu_mean": 101.74650000000001,
+      "mem_mib_max": 232.2
+    },
+    "peer0.org2.example.com": {
+      "cpu_mean": 100.90616666666666,
+      "mem_mib_max": 200.6
+    },
+    "orderer.example.com": {
+      "cpu_mean": 37.83016666666666,
+      "mem_mib_max": 143.4
+    },
+    "peer0org1_learnflow_audit_ccaas": {
+      "cpu_mean": 32.74966666666666,
+      "mem_mib_max": 96.0
+    },
+    "peer0org2_learnflow_audit_ccaas": {
+      "cpu_mean": 33.48949999999999,
+      "mem_mib_max": 65.38
+    }
+  },
+  "ledger_bytes_per_record": 44.28399518652226,
+  "ledger_bytes_per_tx": 4428.399518652226
+}

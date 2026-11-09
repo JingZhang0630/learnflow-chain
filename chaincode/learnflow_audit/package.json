@@ -1,0 +1,13 @@
+{
+  "name": "learnflow-audit",
+  "version": "1.0.0",
+  "description": "LearnFlow-Chain audit and purpose-bound access chaincode",
+  "main": "index.js",
+  "engines": { "node": ">=18" },
+  "scripts": { "start": "fabric-chaincode-node start", "test": "node test/selftest.js" },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "fabric-contract-api": "~2.5",
+    "fabric-shim": "~2.5"
+  }
+}

@@ -1,0 +1,6 @@
+# Reference environment for the reported runs:
+# Python 3.13.12, numpy 2.5.4, scipy 1.18.1, pandas 3.0.6, pytest 8.x, Node 24.21.0
+numpy>=1.26
+scipy>=1.11
+pandas>=2.0
+pytest>=7.4

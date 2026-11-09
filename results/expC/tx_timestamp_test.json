@@ -1,0 +1,60 @@
+{
+  "tolerance_s": 30,
+  "rows": [
+    {
+      "skew_s": 0,
+      "endorsed": true,
+      "decision": "ALLOW",
+      "tau_minus_claimed": 0
+    },
+    {
+      "skew_s": -10,
+      "endorsed": true,
+      "decision": "ALLOW",
+      "tau_minus_claimed": 0
+    },
+    {
+      "skew_s": 10,
+      "endorsed": true,
+      "decision": "ALLOW",
+      "tau_minus_claimed": 0
+    },
+    {
+      "skew_s": -25,
+      "endorsed": true,
+      "decision": "ALLOW",
+      "tau_minus_claimed": 0
+    },
+    {
+      "skew_s": 25,
+      "endorsed": true,
+      "decision": "ALLOW",
+      "tau_minus_claimed": 0
+    },
+    {
+      "skew_s": -40,
+      "endorsed": false,
+      "error": "TX_TIMESTAMP_OUT_OF_TOLERANCE"
+    },
+    {
+      "skew_s": 40,
+      "endorsed": false,
+      "error": "TX_TIMESTAMP_OUT_OF_TOLERANCE"
+    },
+    {
+      "skew_s": -3600,
+      "endorsed": false,
+      "error": "TX_TIMESTAMP_OUT_OF_TOLERANCE"
+    },
+    {
+      "skew_s": 3600,
+      "endorsed": false,
+      "error": "TX_TIMESTAMP_OUT_OF_TOLERANCE"
+    },
+    {
+      "skew_s": -2592000,
+      "endorsed": false,
+      "error": "TX_TIMESTAMP_OUT_OF_TOLERANCE"
+    }
+  ]
+}

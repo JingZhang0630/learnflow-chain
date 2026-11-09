@@ -1,0 +1,301 @@
+[07:36:10] SYN-K3-IID seed=20261018 users=900 items=500 orgs=['0', '1', '2']
+  SYN-K3-IID s=20261018 CEN       auc=0.7758 b_rmse=0.3081 rho=0.953
+  SYN-K3-IID s=20261018 LOC       auc=0.7655 b_rmse=0.4971 rho=0.874
+  SYN-K3-IID s=20261018 CNT       auc=0.7742 b_rmse=0.3292 rho=0.947
+  SYN-K3-IID s=20261018 FED       auc=0.7758 b_rmse=0.3081 rho=0.953
+  SYN-K3-IID s=20261018 DP-FED   0.5 auc=0.6509 b_rmse=1.4688 rho=0.284
+  SYN-K3-IID s=20261018 DP-CNT   0.5 auc=0.6562 b_rmse=1.1657 rho=0.116
+  SYN-K3-IID s=20261018 DP-FED   1 auc=0.6803 b_rmse=1.1736 rho=0.420
+  SYN-K3-IID s=20261018 DP-CNT   1 auc=0.6573 b_rmse=1.2056 rho=0.180
+  SYN-K3-IID s=20261018 DP-FED   2 auc=0.7145 b_rmse=0.8757 rho=0.596
+  SYN-K3-IID s=20261018 DP-CNT   2 auc=0.6713 b_rmse=1.2143 rho=0.326
+  SYN-K3-IID s=20261018 DP-FED   4 auc=0.7440 b_rmse=0.6484 rho=0.763
+  SYN-K3-IID s=20261018 DP-CNT   4 auc=0.6934 b_rmse=1.1029 rho=0.495
+  SYN-K3-IID s=20261018 DP-FED   8 auc=0.7617 b_rmse=0.5137 rho=0.873
+  SYN-K3-IID s=20261018 DP-CNT   8 auc=0.7356 b_rmse=0.7615 rho=0.705
+[07:36:11] SYN-K3-nonIID seed=20261018 users=900 items=500 orgs=['0', '1', '2']
+  SYN-K3-nonIID s=20261018 CEN       auc=0.8137 b_rmse=0.3894 rho=0.925
+  SYN-K3-nonIID s=20261018 LOC       auc=0.8106 b_rmse=0.7948 rho=0.590
+  SYN-K3-nonIID s=20261018 CNT       auc=0.8076 b_rmse=0.7075 rho=0.764
+  SYN-K3-nonIID s=20261018 FED       auc=0.8137 b_rmse=0.3894 rho=0.925
+  SYN-K3-nonIID s=20261018 DP-FED   0.5 auc=0.7079 b_rmse=1.4829 rho=0.272
+  SYN-K3-nonIID s=20261018 DP-CNT   0.5 auc=0.7145 b_rmse=1.1620 rho=0.115
+  SYN-K3-nonIID s=20261018 DP-FED   1 auc=0.7377 b_rmse=1.2018 rho=0.403
+  SYN-K3-nonIID s=20261018 DP-CNT   1 auc=0.7141 b_rmse=1.2048 rho=0.179
+  SYN-K3-nonIID s=20261018 DP-FED   2 auc=0.7676 b_rmse=0.9240 rho=0.563
+  SYN-K3-nonIID s=20261018 DP-CNT   2 auc=0.7222 b_rmse=1.2329 rho=0.283
+  SYN-K3-nonIID s=20261018 DP-FED   4 auc=0.7891 b_rmse=0.7170 rho=0.711
+  SYN-K3-nonIID s=20261018 DP-CNT   4 auc=0.7484 b_rmse=1.1464 rho=0.442
+  SYN-K3-nonIID s=20261018 DP-FED   8 auc=0.8028 b_rmse=0.5863 rho=0.826
+  SYN-K3-nonIID s=20261018 DP-CNT   8 auc=0.7791 b_rmse=0.9874 rho=0.602
+[07:36:12] SYN-K10-IID seed=20261018 users=3000 items=500 orgs=['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+  SYN-K10-IID s=20261018 CEN       auc=0.7897 b_rmse=0.1791 rho=0.985
+  SYN-K10-IID s=20261018 LOC       auc=0.7728 b_rmse=0.4969 rho=0.876
+  SYN-K10-IID s=20261018 CNT       auc=0.7892 b_rmse=0.2335 rho=0.983
+  SYN-K10-IID s=20261018 FED       auc=0.7897 b_rmse=0.1791 rho=0.985
+  SYN-K10-IID s=20261018 DP-FED   0.5 auc=0.6773 b_rmse=1.3156 rho=0.364
+  SYN-K10-IID s=20261018 DP-CNT   0.5 auc=0.6545 b_rmse=1.2450 rho=0.123
+  SYN-K10-IID s=20261018 DP-FED   1 auc=0.7185 b_rmse=0.9754 rho=0.568
+  SYN-K10-IID s=20261018 DP-CNT   1 auc=0.6666 b_rmse=1.2636 rho=0.259
+  SYN-K10-IID s=20261018 DP-FED   2 auc=0.7542 b_rmse=0.6748 rho=0.774
+  SYN-K10-IID s=20261018 DP-CNT   2 auc=0.7025 b_rmse=1.1102 rho=0.485
+  SYN-K10-IID s=20261018 DP-FED   4 auc=0.7768 b_rmse=0.4467 rho=0.907
+  SYN-K10-IID s=20261018 DP-CNT   4 auc=0.7483 b_rmse=0.7636 rho=0.734
+  SYN-K10-IID s=20261018 DP-FED   8 auc=0.7856 b_rmse=0.3171 rho=0.961
+  SYN-K10-IID s=20261018 DP-CNT   8 auc=0.7745 b_rmse=0.5047 rho=0.889
+[07:36:16] SYN-K10-nonIID seed=20261018 users=3000 items=500 orgs=['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+  SYN-K10-nonIID s=20261018 CEN       auc=0.8073 b_rmse=0.2487 rho=0.971
+  SYN-K10-nonIID s=20261018 LOC       auc=0.7998 b_rmse=0.7961 rho=0.593
+  SYN-K10-nonIID s=20261018 CNT       auc=0.8026 b_rmse=0.5383 rho=0.853
+  SYN-K10-nonIID s=20261018 FED       auc=0.8073 b_rmse=0.2487 rho=0.971
+  SYN-K10-nonIID s=20261018 DP-FED   0.5 auc=0.7136 b_rmse=1.3857 rho=0.324
+  SYN-K10-nonIID s=20261018 DP-CNT   0.5 auc=0.6899 b_rmse=1.2481 rho=0.118
+  SYN-K10-nonIID s=20261018 DP-FED   1 auc=0.7484 b_rmse=1.1012 rho=0.491
+  SYN-K10-nonIID s=20261018 DP-CNT   1 auc=0.7065 b_rmse=1.2326 rho=0.249
+  SYN-K10-nonIID s=20261018 DP-FED   2 auc=0.7779 b_rmse=0.8329 rho=0.672
+  SYN-K10-nonIID s=20261018 DP-CNT   2 auc=0.7358 b_rmse=1.1390 rho=0.413
+  SYN-K10-nonIID s=20261018 DP-FED   4 auc=0.7957 b_rmse=0.6215 rho=0.815
+  SYN-K10-nonIID s=20261018 DP-CNT   4 auc=0.7692 b_rmse=0.9314 rho=0.605
+  SYN-K10-nonIID s=20261018 DP-FED   8 auc=0.8030 b_rmse=0.4739 rho=0.896
+  SYN-K10-nonIID s=20261018 DP-CNT   8 auc=0.7894 b_rmse=0.7539 rho=0.741
+[07:36:27] SYN-K3-IID seed=20261019 users=900 items=500 orgs=['0', '1', '2']
+  SYN-K3-IID s=20261019 CEN       auc=0.7919 b_rmse=0.3127 rho=0.950
+  SYN-K3-IID s=20261019 LOC       auc=0.7805 b_rmse=0.4901 rho=0.873
+  SYN-K3-IID s=20261019 CNT       auc=0.7910 b_rmse=0.3405 rho=0.942
+  SYN-K3-IID s=20261019 FED       auc=0.7919 b_rmse=0.3127 rho=0.950
+  SYN-K3-IID s=20261019 DP-FED   0.5 auc=0.6629 b_rmse=1.4823 rho=0.212
+  SYN-K3-IID s=20261019 DP-CNT   0.5 auc=0.6595 b_rmse=1.2431 rho=0.002
+  SYN-K3-IID s=20261019 DP-FED   1 auc=0.6954 b_rmse=1.1885 rho=0.373
+  SYN-K3-IID s=20261019 DP-CNT   1 auc=0.6621 b_rmse=1.2741 rho=0.081
+  SYN-K3-IID s=20261019 DP-FED   2 auc=0.7321 b_rmse=0.8938 rho=0.570
+  SYN-K3-IID s=20261019 DP-CNT   2 auc=0.6764 b_rmse=1.2871 rho=0.221
+  SYN-K3-IID s=20261019 DP-FED   4 auc=0.7618 b_rmse=0.6596 rho=0.755
+  SYN-K3-IID s=20261019 DP-CNT   4 auc=0.7054 b_rmse=1.1575 rho=0.430
+  SYN-K3-IID s=20261019 DP-FED   8 auc=0.7804 b_rmse=0.5176 rho=0.877
+  SYN-K3-IID s=20261019 DP-CNT   8 auc=0.7497 b_rmse=0.8269 rho=0.671
+[07:36:28] SYN-K3-nonIID seed=20261019 users=900 items=500 orgs=['0', '1', '2']
+  SYN-K3-nonIID s=20261019 CEN       auc=0.8141 b_rmse=0.4308 rho=0.893
+  SYN-K3-nonIID s=20261019 LOC       auc=0.8120 b_rmse=0.7963 rho=0.563
+  SYN-K3-nonIID s=20261019 CNT       auc=0.8080 b_rmse=0.7368 rho=0.711
+  SYN-K3-nonIID s=20261019 FED       auc=0.8141 b_rmse=0.4308 rho=0.893
+  SYN-K3-nonIID s=20261019 DP-FED   0.5 auc=0.6991 b_rmse=1.4952 rho=0.197
+  SYN-K3-nonIID s=20261019 DP-CNT   0.5 auc=0.7006 b_rmse=1.2422 rho=0.001
+  SYN-K3-nonIID s=20261019 DP-FED   1 auc=0.7298 b_rmse=1.2188 rho=0.336
+  SYN-K3-nonIID s=20261019 DP-CNT   1 auc=0.6996 b_rmse=1.2785 rho=0.076
+  SYN-K3-nonIID s=20261019 DP-FED   2 auc=0.7647 b_rmse=0.9391 rho=0.518
+  SYN-K3-nonIID s=20261019 DP-CNT   2 auc=0.7115 b_rmse=1.2965 rho=0.196
+  SYN-K3-nonIID s=20261019 DP-FED   4 auc=0.7907 b_rmse=0.7280 rho=0.694
+  SYN-K3-nonIID s=20261019 DP-CNT   4 auc=0.7369 b_rmse=1.2080 rho=0.355
+  SYN-K3-nonIID s=20261019 DP-FED   8 auc=0.8042 b_rmse=0.6010 rho=0.805
+  SYN-K3-nonIID s=20261019 DP-CNT   8 auc=0.7761 b_rmse=1.0066 rho=0.535
+[07:36:29] SYN-K10-IID seed=20261019 users=3000 items=500 orgs=['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+  SYN-K10-IID s=20261019 CEN       auc=0.7902 b_rmse=0.1727 rho=0.985
+  SYN-K10-IID s=20261019 LOC       auc=0.7731 b_rmse=0.4941 rho=0.872
+  SYN-K10-IID s=20261019 CNT       auc=0.7894 b_rmse=0.2312 rho=0.982
+  SYN-K10-IID s=20261019 FED       auc=0.7902 b_rmse=0.1727 rho=0.985
+  SYN-K10-IID s=20261019 DP-FED   0.5 auc=0.6632 b_rmse=1.4611 rho=0.285
+  SYN-K10-IID s=20261019 DP-CNT   0.5 auc=0.6550 b_rmse=1.2380 rho=0.101
+  SYN-K10-IID s=20261019 DP-FED   1 auc=0.7056 b_rmse=1.1196 rho=0.497
+  SYN-K10-IID s=20261019 DP-CNT   1 auc=0.6705 b_rmse=1.2397 rho=0.261
+  SYN-K10-IID s=20261019 DP-FED   2 auc=0.7475 b_rmse=0.7555 rho=0.732
+  SYN-K10-IID s=20261019 DP-CNT   2 auc=0.7061 b_rmse=1.0925 rho=0.511
+  SYN-K10-IID s=20261019 DP-FED   4 auc=0.7731 b_rmse=0.4819 rho=0.887
+  SYN-K10-IID s=20261019 DP-CNT   4 auc=0.7477 b_rmse=0.7555 rho=0.741
+  SYN-K10-IID s=20261019 DP-FED   8 auc=0.7849 b_rmse=0.3239 rho=0.958
+  SYN-K10-IID s=20261019 DP-CNT   8 auc=0.7746 b_rmse=0.4817 rho=0.891
+[07:36:34] SYN-K10-nonIID seed=20261019 users=3000 items=500 orgs=['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+  SYN-K10-nonIID s=20261019 CEN       auc=0.8034 b_rmse=0.2901 rho=0.954
+  SYN-K10-nonIID s=20261019 LOC       auc=0.7975 b_rmse=0.7842 rho=0.591
+  SYN-K10-nonIID s=20261019 CNT       auc=0.7974 b_rmse=0.5891 rho=0.805
+  SYN-K10-nonIID s=20261019 FED       auc=0.8034 b_rmse=0.2901 rho=0.954
+  SYN-K10-nonIID s=20261019 DP-FED   0.5 auc=0.6989 b_rmse=1.4879 rho=0.275
+  SYN-K10-nonIID s=20261019 DP-CNT   0.5 auc=0.6842 b_rmse=1.2220 rho=0.112
+  SYN-K10-nonIID s=20261019 DP-FED   1 auc=0.7405 b_rmse=1.2017 rho=0.471
+  SYN-K10-nonIID s=20261019 DP-CNT   1 auc=0.7023 b_rmse=1.2118 rho=0.279
+  SYN-K10-nonIID s=20261019 DP-FED   2 auc=0.7726 b_rmse=0.9158 rho=0.661
+  SYN-K10-nonIID s=20261019 DP-CNT   2 auc=0.7373 b_rmse=1.0759 rho=0.469
+  SYN-K10-nonIID s=20261019 DP-FED   4 auc=0.7912 b_rmse=0.6691 rho=0.803
+  SYN-K10-nonIID s=20261019 DP-CNT   4 auc=0.7684 b_rmse=0.9075 rho=0.631
+  SYN-K10-nonIID s=20261019 DP-FED   8 auc=0.7986 b_rmse=0.5098 rho=0.874
+  SYN-K10-nonIID s=20261019 DP-CNT   8 auc=0.7859 b_rmse=0.7932 rho=0.721
+[07:36:46] SYN-K3-IID seed=20261020 users=900 items=500 orgs=['0', '1', '2']
+  SYN-K3-IID s=20261020 CEN       auc=0.7792 b_rmse=0.2974 rho=0.955
+  SYN-K3-IID s=20261020 LOC       auc=0.7656 b_rmse=0.4830 rho=0.886
+  SYN-K3-IID s=20261020 CNT       auc=0.7792 b_rmse=0.3194 rho=0.949
+  SYN-K3-IID s=20261020 FED       auc=0.7792 b_rmse=0.2974 rho=0.955
+  SYN-K3-IID s=20261020 DP-FED   0.5 auc=0.6567 b_rmse=1.5493 rho=0.212
+  SYN-K3-IID s=20261020 DP-CNT   0.5 auc=0.6522 b_rmse=1.2535 rho=0.053
+  SYN-K3-IID s=20261020 DP-FED   1 auc=0.6891 b_rmse=1.2364 rho=0.372
+  SYN-K3-IID s=20261020 DP-CNT   1 auc=0.6551 b_rmse=1.2952 rho=0.129
+  SYN-K3-IID s=20261020 DP-FED   2 auc=0.7261 b_rmse=0.9183 rho=0.592
+  SYN-K3-IID s=20261020 DP-CNT   2 auc=0.6801 b_rmse=1.2495 rho=0.330
+  SYN-K3-IID s=20261020 DP-FED   4 auc=0.7529 b_rmse=0.6788 rho=0.771
+  SYN-K3-IID s=20261020 DP-CNT   4 auc=0.7120 b_rmse=1.0884 rho=0.549
+  SYN-K3-IID s=20261020 DP-FED   8 auc=0.7693 b_rmse=0.5257 rho=0.885
+  SYN-K3-IID s=20261020 DP-CNT   8 auc=0.7468 b_rmse=0.8028 rho=0.742
+[07:36:47] SYN-K3-nonIID seed=20261020 users=900 items=500 orgs=['0', '1', '2']
+  SYN-K3-nonIID s=20261020 CEN       auc=0.8167 b_rmse=0.4013 rho=0.915
+  SYN-K3-nonIID s=20261020 LOC       auc=0.8140 b_rmse=0.7999 rho=0.583
+  SYN-K3-nonIID s=20261020 CNT       auc=0.8109 b_rmse=0.7134 rho=0.759
+  SYN-K3-nonIID s=20261020 FED       auc=0.8167 b_rmse=0.4013 rho=0.915
+  SYN-K3-nonIID s=20261020 DP-FED   0.5 auc=0.6876 b_rmse=1.5624 rho=0.197
+  SYN-K3-nonIID s=20261020 DP-CNT   0.5 auc=0.7015 b_rmse=1.2477 rho=0.073
+  SYN-K3-nonIID s=20261020 DP-FED   1 auc=0.7239 b_rmse=1.2659 rho=0.343
+  SYN-K3-nonIID s=20261020 DP-CNT   1 auc=0.7046 b_rmse=1.2712 rho=0.155
+  SYN-K3-nonIID s=20261020 DP-FED   2 auc=0.7636 b_rmse=0.9662 rho=0.540
+  SYN-K3-nonIID s=20261020 DP-CNT   2 auc=0.7245 b_rmse=1.2712 rho=0.309
+  SYN-K3-nonIID s=20261020 DP-FED   4 auc=0.7914 b_rmse=0.7454 rho=0.711
+  SYN-K3-nonIID s=20261020 DP-CNT   4 auc=0.7499 b_rmse=1.1845 rho=0.470
+  SYN-K3-nonIID s=20261020 DP-FED   8 auc=0.8053 b_rmse=0.6135 rho=0.822
+  SYN-K3-nonIID s=20261020 DP-CNT   8 auc=0.7805 b_rmse=0.9781 rho=0.620
+[07:36:48] SYN-K10-IID seed=20261020 users=3000 items=500 orgs=['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+  SYN-K10-IID s=20261020 CEN       auc=0.7873 b_rmse=0.1702 rho=0.987
+  SYN-K10-IID s=20261020 LOC       auc=0.7688 b_rmse=0.4917 rho=0.885
+  SYN-K10-IID s=20261020 CNT       auc=0.7869 b_rmse=0.2172 rho=0.985
+  SYN-K10-IID s=20261020 FED       auc=0.7873 b_rmse=0.1702 rho=0.987
+  SYN-K10-IID s=20261020 DP-FED   0.5 auc=0.6736 b_rmse=1.3227 rho=0.344
+  SYN-K10-IID s=20261020 DP-CNT   0.5 auc=0.6477 b_rmse=1.2608 rho=0.117
+  SYN-K10-IID s=20261020 DP-FED   1 auc=0.7170 b_rmse=0.9868 rho=0.574
+  SYN-K10-IID s=20261020 DP-CNT   1 auc=0.6686 b_rmse=1.2257 rho=0.287
+  SYN-K10-IID s=20261020 DP-FED   2 auc=0.7531 b_rmse=0.6828 rho=0.782
+  SYN-K10-IID s=20261020 DP-CNT   2 auc=0.7020 b_rmse=1.0833 rho=0.511
+  SYN-K10-IID s=20261020 DP-FED   4 auc=0.7744 b_rmse=0.4510 rho=0.907
+  SYN-K10-IID s=20261020 DP-CNT   4 auc=0.7460 b_rmse=0.7490 rho=0.747
+  SYN-K10-IID s=20261020 DP-FED   8 auc=0.7838 b_rmse=0.3039 rho=0.964
+  SYN-K10-IID s=20261020 DP-CNT   8 auc=0.7722 b_rmse=0.4742 rho=0.899
+[07:36:53] SYN-K10-nonIID seed=20261020 users=3000 items=500 orgs=['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+  SYN-K10-nonIID s=20261020 CEN       auc=0.8129 b_rmse=0.2681 rho=0.965
+  SYN-K10-nonIID s=20261020 LOC       auc=0.8041 b_rmse=0.8002 rho=0.596
+  SYN-K10-nonIID s=20261020 CNT       auc=0.8074 b_rmse=0.5575 rho=0.837
+  SYN-K10-nonIID s=20261020 FED       auc=0.8129 b_rmse=0.2681 rho=0.965
+  SYN-K10-nonIID s=20261020 DP-FED   0.5 auc=0.7209 b_rmse=1.3751 rho=0.316
+  SYN-K10-nonIID s=20261020 DP-CNT   0.5 auc=0.7017 b_rmse=1.2435 rho=0.149
+  SYN-K10-nonIID s=20261020 DP-FED   1 auc=0.7586 b_rmse=1.0902 rho=0.501
+  SYN-K10-nonIID s=20261020 DP-CNT   1 auc=0.7165 b_rmse=1.2502 rho=0.261
+  SYN-K10-nonIID s=20261020 DP-FED   2 auc=0.7860 b_rmse=0.8241 rho=0.675
+  SYN-K10-nonIID s=20261020 DP-CNT   2 auc=0.7468 b_rmse=1.1425 rho=0.412
+  SYN-K10-nonIID s=20261020 DP-FED   4 auc=0.8020 b_rmse=0.6129 rho=0.815
+  SYN-K10-nonIID s=20261020 DP-CNT   4 auc=0.7779 b_rmse=0.9364 rho=0.596
+  SYN-K10-nonIID s=20261020 DP-FED   8 auc=0.8085 b_rmse=0.4839 rho=0.893
+  SYN-K10-nonIID s=20261020 DP-CNT   8 auc=0.7956 b_rmse=0.7661 rho=0.714
+[07:37:05] SYN-K3-IID seed=20261021 users=900 items=500 orgs=['0', '1', '2']
+  SYN-K3-IID s=20261021 CEN       auc=0.7866 b_rmse=0.2995 rho=0.960
+  SYN-K3-IID s=20261021 LOC       auc=0.7714 b_rmse=0.5006 rho=0.882
+  SYN-K3-IID s=20261021 CNT       auc=0.7853 b_rmse=0.3310 rho=0.954
+  SYN-K3-IID s=20261021 FED       auc=0.7866 b_rmse=0.2995 rho=0.960
+  SYN-K3-IID s=20261021 DP-FED   0.5 auc=0.6300 b_rmse=1.6352 rho=0.114
+  SYN-K3-IID s=20261021 DP-CNT   0.5 auc=0.6458 b_rmse=1.2470 rho=0.046
+  SYN-K3-IID s=20261021 DP-FED   1 auc=0.6670 b_rmse=1.3182 rho=0.271
+  SYN-K3-IID s=20261021 DP-CNT   1 auc=0.6492 b_rmse=1.2620 rho=0.133
+  SYN-K3-IID s=20261021 DP-FED   2 auc=0.7136 b_rmse=0.9858 rho=0.500
+  SYN-K3-IID s=20261021 DP-CNT   2 auc=0.6699 b_rmse=1.2444 rho=0.305
+  SYN-K3-IID s=20261021 DP-FED   4 auc=0.7508 b_rmse=0.7243 rho=0.741
+  SYN-K3-IID s=20261021 DP-CNT   4 auc=0.7064 b_rmse=1.0897 rho=0.531
+  SYN-K3-IID s=20261021 DP-FED   8 auc=0.7714 b_rmse=0.5573 rho=0.884
+  SYN-K3-IID s=20261021 DP-CNT   8 auc=0.7465 b_rmse=0.7818 rho=0.742
+[07:37:06] SYN-K3-nonIID seed=20261021 users=900 items=500 orgs=['0', '1', '2']
+  SYN-K3-nonIID s=20261021 CEN       auc=0.8103 b_rmse=0.3904 rho=0.921
+  SYN-K3-nonIID s=20261021 LOC       auc=0.8080 b_rmse=0.8106 rho=0.587
+  SYN-K3-nonIID s=20261021 CNT       auc=0.8054 b_rmse=0.6954 rho=0.765
+  SYN-K3-nonIID s=20261021 FED       auc=0.8103 b_rmse=0.3904 rho=0.921
+  SYN-K3-nonIID s=20261021 DP-FED   0.5 auc=0.6817 b_rmse=1.6545 rho=0.106
+  SYN-K3-nonIID s=20261021 DP-CNT   0.5 auc=0.7061 b_rmse=1.2444 rho=0.048
+  SYN-K3-nonIID s=20261021 DP-FED   1 auc=0.7145 b_rmse=1.3556 rho=0.250
+  SYN-K3-nonIID s=20261021 DP-CNT   1 auc=0.7104 b_rmse=1.2584 rho=0.155
+  SYN-K3-nonIID s=20261021 DP-FED   2 auc=0.7515 b_rmse=1.0392 rho=0.453
+  SYN-K3-nonIID s=20261021 DP-CNT   2 auc=0.7227 b_rmse=1.2500 rho=0.301
+  SYN-K3-nonIID s=20261021 DP-FED   4 auc=0.7829 b_rmse=0.7851 rho=0.674
+  SYN-K3-nonIID s=20261021 DP-CNT   4 auc=0.7493 b_rmse=1.1385 rho=0.476
+  SYN-K3-nonIID s=20261021 DP-FED   8 auc=0.8005 b_rmse=0.6228 rho=0.820
+  SYN-K3-nonIID s=20261021 DP-CNT   8 auc=0.7804 b_rmse=0.9743 rho=0.629
+[07:37:07] SYN-K10-IID seed=20261021 users=3000 items=500 orgs=['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+  SYN-K10-IID s=20261021 CEN       auc=0.7967 b_rmse=0.1790 rho=0.985
+  SYN-K10-IID s=20261021 LOC       auc=0.7790 b_rmse=0.5013 rho=0.880
+  SYN-K10-IID s=20261021 CNT       auc=0.7957 b_rmse=0.2346 rho=0.984
+  SYN-K10-IID s=20261021 FED       auc=0.7967 b_rmse=0.1790 rho=0.985
+  SYN-K10-IID s=20261021 DP-FED   0.5 auc=0.6565 b_rmse=1.4392 rho=0.217
+  SYN-K10-IID s=20261021 DP-CNT   0.5 auc=0.6501 b_rmse=1.2776 rho=0.089
+  SYN-K10-IID s=20261021 DP-FED   1 auc=0.7080 b_rmse=1.0575 rho=0.465
+  SYN-K10-IID s=20261021 DP-CNT   1 auc=0.6645 b_rmse=1.2844 rho=0.225
+  SYN-K10-IID s=20261021 DP-FED   2 auc=0.7556 b_rmse=0.7105 rho=0.729
+  SYN-K10-IID s=20261021 DP-CNT   2 auc=0.7039 b_rmse=1.1221 rho=0.465
+  SYN-K10-IID s=20261021 DP-FED   4 auc=0.7811 b_rmse=0.4741 rho=0.891
+  SYN-K10-IID s=20261021 DP-CNT   4 auc=0.7514 b_rmse=0.7894 rho=0.727
+  SYN-K10-IID s=20261021 DP-FED   8 auc=0.7918 b_rmse=0.3365 rho=0.957
+  SYN-K10-IID s=20261021 DP-CNT   8 auc=0.7793 b_rmse=0.5059 rho=0.886
+[07:37:11] SYN-K10-nonIID seed=20261021 users=3000 items=500 orgs=['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+  SYN-K10-nonIID s=20261021 CEN       auc=0.8084 b_rmse=0.2686 rho=0.966
+  SYN-K10-nonIID s=20261021 LOC       auc=0.8010 b_rmse=0.8072 rho=0.600
+  SYN-K10-nonIID s=20261021 CNT       auc=0.8026 b_rmse=0.5669 rho=0.838
+  SYN-K10-nonIID s=20261021 FED       auc=0.8084 b_rmse=0.2686 rho=0.966
+  SYN-K10-nonIID s=20261021 DP-FED   0.5 auc=0.6880 b_rmse=1.4789 rho=0.202
+  SYN-K10-nonIID s=20261021 DP-CNT   0.5 auc=0.6825 b_rmse=1.2823 rho=0.077
+  SYN-K10-nonIID s=20261021 DP-FED   1 auc=0.7361 b_rmse=1.1522 rho=0.413
+  SYN-K10-nonIID s=20261021 DP-CNT   1 auc=0.7036 b_rmse=1.2449 rho=0.243
+  SYN-K10-nonIID s=20261021 DP-FED   2 auc=0.7750 b_rmse=0.8543 rho=0.640
+  SYN-K10-nonIID s=20261021 DP-CNT   2 auc=0.7393 b_rmse=1.1287 rho=0.430
+  SYN-K10-nonIID s=20261021 DP-FED   4 auc=0.7950 b_rmse=0.6309 rho=0.799
+  SYN-K10-nonIID s=20261021 DP-CNT   4 auc=0.7701 b_rmse=0.9806 rho=0.587
+  SYN-K10-nonIID s=20261021 DP-FED   8 auc=0.8035 b_rmse=0.4891 rho=0.886
+  SYN-K10-nonIID s=20261021 DP-CNT   8 auc=0.7894 b_rmse=0.8404 rho=0.697
+[07:37:24] SYN-K3-IID seed=20261022 users=900 items=500 orgs=['0', '1', '2']
+  SYN-K3-IID s=20261022 CEN       auc=0.7731 b_rmse=0.2874 rho=0.957
+  SYN-K3-IID s=20261022 LOC       auc=0.7577 b_rmse=0.4680 rho=0.878
+  SYN-K3-IID s=20261022 CNT       auc=0.7721 b_rmse=0.3076 rho=0.955
+  SYN-K3-IID s=20261022 FED       auc=0.7731 b_rmse=0.2874 rho=0.957
+  SYN-K3-IID s=20261022 DP-FED   0.5 auc=0.6289 b_rmse=1.5015 rho=0.141
+  SYN-K3-IID s=20261022 DP-CNT   0.5 auc=0.6329 b_rmse=1.1944 rho=0.000
+  SYN-K3-IID s=20261022 DP-FED   1 auc=0.6636 b_rmse=1.1897 rho=0.308
+  SYN-K3-IID s=20261022 DP-CNT   1 auc=0.6307 b_rmse=1.2439 rho=0.059
+  SYN-K3-IID s=20261022 DP-FED   2 auc=0.7056 b_rmse=0.8755 rho=0.544
+  SYN-K3-IID s=20261022 DP-CNT   2 auc=0.6500 b_rmse=1.2157 rho=0.242
+  SYN-K3-IID s=20261022 DP-FED   4 auc=0.7388 b_rmse=0.6409 rho=0.757
+  SYN-K3-IID s=20261022 DP-CNT   4 auc=0.6842 b_rmse=1.0644 rho=0.464
+  SYN-K3-IID s=20261022 DP-FED   8 auc=0.7569 b_rmse=0.4998 rho=0.881
+  SYN-K3-IID s=20261022 DP-CNT   8 auc=0.7270 b_rmse=0.7724 rho=0.713
+[07:37:25] SYN-K3-nonIID seed=20261022 users=900 items=500 orgs=['0', '1', '2']
+  SYN-K3-nonIID s=20261022 CEN       auc=0.8034 b_rmse=0.4277 rho=0.896
+  SYN-K3-nonIID s=20261022 LOC       auc=0.8018 b_rmse=0.7721 rho=0.564
+  SYN-K3-nonIID s=20261022 CNT       auc=0.7961 b_rmse=0.7639 rho=0.704
+  SYN-K3-nonIID s=20261022 FED       auc=0.8034 b_rmse=0.4277 rho=0.896
+  SYN-K3-nonIID s=20261022 DP-FED   0.5 auc=0.6847 b_rmse=1.5335 rho=0.122
+  SYN-K3-nonIID s=20261022 DP-CNT   0.5 auc=0.6955 b_rmse=1.1963 rho=-0.008
+  SYN-K3-nonIID s=20261022 DP-FED   1 auc=0.7182 b_rmse=1.2423 rho=0.269
+  SYN-K3-nonIID s=20261022 DP-CNT   1 auc=0.6904 b_rmse=1.2516 rho=0.045
+  SYN-K3-nonIID s=20261022 DP-FED   2 auc=0.7544 b_rmse=0.9480 rho=0.480
+  SYN-K3-nonIID s=20261022 DP-CNT   2 auc=0.7034 b_rmse=1.2484 rho=0.207
+  SYN-K3-nonIID s=20261022 DP-FED   4 auc=0.7795 b_rmse=0.7267 rho=0.681
+  SYN-K3-nonIID s=20261022 DP-CNT   4 auc=0.7345 b_rmse=1.1484 rho=0.395
+  SYN-K3-nonIID s=20261022 DP-FED   8 auc=0.7934 b_rmse=0.5954 rho=0.801
+  SYN-K3-nonIID s=20261022 DP-CNT   8 auc=0.7658 b_rmse=0.9944 rho=0.557
+[07:37:26] SYN-K10-IID seed=20261022 users=3000 items=500 orgs=['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+  SYN-K10-IID s=20261022 CEN       auc=0.7810 b_rmse=0.1713 rho=0.985
+  SYN-K10-IID s=20261022 LOC       auc=0.7625 b_rmse=0.4722 rho=0.877
+  SYN-K10-IID s=20261022 CNT       auc=0.7801 b_rmse=0.2157 rho=0.983
+  SYN-K10-IID s=20261022 FED       auc=0.7810 b_rmse=0.1713 rho=0.985
+  SYN-K10-IID s=20261022 DP-FED   0.5 auc=0.6619 b_rmse=1.3990 rho=0.333
+  SYN-K10-IID s=20261022 DP-CNT   0.5 auc=0.6400 b_rmse=1.2040 rho=0.124
+  SYN-K10-IID s=20261022 DP-FED   1 auc=0.7046 b_rmse=1.0301 rho=0.554
+  SYN-K10-IID s=20261022 DP-CNT   1 auc=0.6510 b_rmse=1.2395 rho=0.255
+  SYN-K10-IID s=20261022 DP-FED   2 auc=0.7417 b_rmse=0.6952 rho=0.753
+  SYN-K10-IID s=20261022 DP-CNT   2 auc=0.6844 b_rmse=1.1261 rho=0.464
+  SYN-K10-IID s=20261022 DP-FED   4 auc=0.7652 b_rmse=0.4516 rho=0.890
+  SYN-K10-IID s=20261022 DP-CNT   4 auc=0.7261 b_rmse=0.8402 rho=0.698
+  SYN-K10-IID s=20261022 DP-FED   8 auc=0.7759 b_rmse=0.3020 rho=0.956
+  SYN-K10-IID s=20261022 DP-CNT   8 auc=0.7587 b_rmse=0.5240 rho=0.871
+[07:37:31] SYN-K10-nonIID seed=20261022 users=3000 items=500 orgs=['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+  SYN-K10-nonIID s=20261022 CEN       auc=0.7976 b_rmse=0.2731 rho=0.963
+  SYN-K10-nonIID s=20261022 LOC       auc=0.7905 b_rmse=0.7663 rho=0.579
+  SYN-K10-nonIID s=20261022 CNT       auc=0.7912 b_rmse=0.5715 rho=0.825
+  SYN-K10-nonIID s=20261022 FED       auc=0.7976 b_rmse=0.2731 rho=0.963
+  SYN-K10-nonIID s=20261022 DP-FED   0.5 auc=0.6908 b_rmse=1.5020 rho=0.292
+  SYN-K10-nonIID s=20261022 DP-CNT   0.5 auc=0.6714 b_rmse=1.2118 rho=0.104
+  SYN-K10-nonIID s=20261022 DP-FED   1 auc=0.7294 b_rmse=1.1940 rho=0.476
+  SYN-K10-nonIID s=20261022 DP-CNT   1 auc=0.6794 b_rmse=1.2593 rho=0.197
+  SYN-K10-nonIID s=20261022 DP-FED   2 auc=0.7633 b_rmse=0.8754 rho=0.667
+  SYN-K10-nonIID s=20261022 DP-CNT   2 auc=0.7148 b_rmse=1.1421 rho=0.394
+  SYN-K10-nonIID s=20261022 DP-FED   4 auc=0.7828 b_rmse=0.6358 rho=0.796
+  SYN-K10-nonIID s=20261022 DP-CNT   4 auc=0.7518 b_rmse=0.9509 rho=0.582
+  SYN-K10-nonIID s=20261022 DP-FED   8 auc=0.7915 b_rmse=0.4904 rho=0.872
+  SYN-K10-nonIID s=20261022 DP-CNT   8 auc=0.7739 b_rmse=0.8176 rho=0.710
+done

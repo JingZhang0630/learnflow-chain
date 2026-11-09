@@ -1,0 +1,30 @@
+{
+  "n_tasks": 200,
+  "K": 10,
+  "rounds": 20,
+  "n_mid_task_events": 469,
+  "authorised_round_participations": 35280,
+  "models": {
+    "login_only_rbac": {
+      "unauthorized_round_participations": 4720,
+      "false_denials": 0,
+      "events_never_enforced": 469,
+      "events": 469,
+      "mean_rounds_to_effect": null
+    },
+    "join_time_check": {
+      "unauthorized_round_participations": 4720,
+      "false_denials": 0,
+      "events_never_enforced": 469,
+      "events": 469,
+      "mean_rounds_to_effect": null
+    },
+    "per_round_reeval": {
+      "unauthorized_round_participations": 0,
+      "false_denials": 0,
+      "events_never_enforced": 0,
+      "events": 469,
+      "mean_rounds_to_effect": 0.0
+    }
+  }
+}

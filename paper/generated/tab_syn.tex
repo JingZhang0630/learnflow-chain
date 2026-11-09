@@ -1,0 +1,32 @@
+\begin{widetable}
+\centering
+\caption{Synthetic data (D3): calibration utility without privacy, mean over seeds ($\pm$ s.d. for AUC). b-RMSE and $\rho$ are against the true difficulties.}
+\label{tab:syn}
+\small
+\begin{tabular}{llcccc}
+\toprule
+Dataset & Method & AUC & Brier & b-RMSE & Spearman $\rho$ \\
+\midrule
+SYN-K3-IID & CEN & 0.7813$\pm$0.0078 & 0.1905 & 0.301 & 0.955 \\
+ & LOC & 0.7681$\pm$0.0084 & 0.1959 & 0.488 & 0.878 \\
+ & CNT & 0.7804$\pm$0.0078 & 0.1909 & 0.326 & 0.949 \\
+ & FED & 0.7813$\pm$0.0078 & 0.1905 & 0.301 & 0.955 \\
+\midrule
+SYN-K3-nonIID & CEN & 0.8116$\pm$0.0051 & 0.1772 & 0.408 & 0.910 \\
+ & LOC & 0.8093$\pm$0.0047 & 0.1783 & 0.795 & 0.577 \\
+ & CNT & 0.8056$\pm$0.0056 & 0.1799 & 0.723 & 0.741 \\
+ & FED & 0.8116$\pm$0.0051 & 0.1772 & 0.408 & 0.910 \\
+\midrule
+SYN-K10-IID & CEN & 0.7890$\pm$0.0057 & 0.1873 & 0.174 & 0.985 \\
+ & LOC & 0.7713$\pm$0.0061 & 0.1946 & 0.491 & 0.878 \\
+ & CNT & 0.7883$\pm$0.0056 & 0.1877 & 0.226 & 0.984 \\
+ & FED & 0.7890$\pm$0.0057 & 0.1873 & 0.174 & 0.985 \\
+\midrule
+SYN-K10-nonIID & CEN & 0.8059$\pm$0.0058 & 0.1797 & 0.270 & 0.964 \\
+ & LOC & 0.7986$\pm$0.0051 & 0.1830 & 0.791 & 0.592 \\
+ & CNT & 0.8002$\pm$0.0062 & 0.1823 & 0.565 & 0.831 \\
+ & FED & 0.8059$\pm$0.0058 & 0.1797 & 0.270 & 0.964 \\
+\bottomrule
+\end{tabular}
+\par\smallskip\footnotesize FED equals CEN by Proposition~\ref{prop:exact}; CEN requires pooling raw data.
+\end{widetable}

@@ -1,0 +1,262 @@
+{
+  "n_records": 16217311,
+  "record_bytes": 29,
+  "raw_bytes": 470302019,
+  "n_institutions": 20,
+  "load_s": 3.140388837084174,
+  "leaf_hash_s": 22.486704036826268,
+  "leaf_hash_records_per_s": 721195.5550907353,
+  "tree_build_s": 46.696363574126735,
+  "tree_records_per_s": 347292.803094963,
+  "largest_institution": "ntpc",
+  "largest_depth": 22,
+  "proof_bytes": 726,
+  "proof_verify_us": 35.98898206837475,
+  "proofs_valid": true,
+  "onchain_bytes_per_institution_root": 32,
+  "institutions": {
+    "chc": {
+      "n_records": 454823,
+      "root": "c6335641b9634ae2a9105f4a6b441bd4f7d8b2f3d084153f83ee357df560ddbc",
+      "depth": 19,
+      "build_s": 0.6902253939770162
+    },
+    "cy": {
+      "n_records": 373058,
+      "root": "e9d5331bb802e5f3be3979d84009c247a3a28256b03ba896f8a126a20f3f9206",
+      "depth": 19,
+      "build_s": 0.5357827979605645
+    },
+    "hc": {
+      "n_records": 656873,
+      "root": "a7fc9a7efc2fdcf1dc5fcd4d5b5ef43c9cea5c26f942a68192d6515ac329f038",
+      "depth": 20,
+      "build_s": 0.9520459480118006
+    },
+    "hlc": {
+      "n_records": 386308,
+      "root": "47cb570fd3ee58b787870073e940115eaf253c292e3c77a5252d79909f0d45c4",
+      "depth": 19,
+      "build_s": 0.5599833570886403
+    },
+    "ilc": {
+      "n_records": 473297,
+      "root": "6c3deef527ad2a9f17e842d9bb21ed5ab61fa321e0d1468b1fc6fd5606ef2975",
+      "depth": 19,
+      "build_s": 0.6803344888612628
+    },
+    "kh": {
+      "n_records": 1034257,
+      "root": "d971889a90b34fa70b13350008ab2292fd2b7bd8b6eb396e5f5326b527f2f1e5",
+      "depth": 20,
+      "build_s": 1.6055504900868982
+    },
+    "kl": {
+      "n_records": 138428,
+      "root": "70bbe2aff52dc6f1dd696653d4c7dac711dd19055bff19654e42567c1f863392",
+      "depth": 18,
+      "build_s": 0.2046871588099748
+    },
+    "km": {
+      "n_records": 574571,
+      "root": "4777bac3df73b057e2630ca89cf1b6e97b47fa910d4793913ac013c7b95aee69",
+      "depth": 20,
+      "build_s": 0.817595343105495
+    },
+    "lj": {
+      "n_records": 10877,
+      "root": "f0a5b86a4a83edb7e2ede93face47933a4f9d1861f41a90f555653ef191f9445",
+      "depth": 14,
+      "build_s": 0.01532273693010211
+    },
+    "ml": {
+      "n_records": 564557,
+      "root": "ef446896a546a4647ab0cf5432f2c226dd2355c8497be7e978ab891d638a275a",
+      "depth": 20,
+      "build_s": 0.8082026289775968
+    },
+    "ntct": {
+      "n_records": 419903,
+      "root": "63e39865c3e0cf1b351f1ad23ac9d481c2e6fc84211af2aac633807b3ec00f57",
+      "depth": 19,
+      "build_s": 0.684877630090341
+    },
+    "ntpc": {
+      "n_records": 2269990,
+      "root": "c03fdc45b64d435acb1edac60dc408d98a5738dadcfd02817e45da9b56303945",
+      "depth": 22,
+      "build_s": 3.8368301140144467
+    },
+    "phc": {
+      "n_records": 70757,
+      "root": "0441e5b7af77426b1efe472ef9d40a266a693eae8d9d01e049f4d5c335bd6b6b",
+      "depth": 17,
+      "build_s": 0.10332835302688181
+    },
+    "ptc": {
+      "n_records": 543612,
+      "root": "8b4e9af31814126f1ff8977592eec83bdb737fd0ec6c1de87dd2c3a970b27c8f",
+      "depth": 20,
+      "build_s": 0.7854242441244423
+    },
+    "tc": {
+      "n_records": 2199206,
+      "root": "8d9287dc91ee01c61b84e4f0adb4b7dca1f467aba4495a49537770b8c022d7d7",
+      "depth": 22,
+      "build_s": 3.1925226380117238
+    },
+    "tn": {
+      "n_records": 720785,
+      "root": "0b97908eaaf2121abefed36ccf4c1e9dfe26d69b85ea8a5ff74655ffc76c9418",
+      "depth": 20,
+      "build_s": 1.042467923136428
+    },
+    "tp": {
+      "n_records": 2111930,
+      "root": "9c921d026f14e8291c4d4ce970b70c0816cd313e91239b13ceada68a24978864",
+      "depth": 22,
+      "build_s": 3.0391803809907287
+    },
+    "ttct": {
+      "n_records": 526632,
+      "root": "e92ea90b520c9502078a3cc858295bbfe1ddd5d395ac7b06567690625c2f414a",
+      "depth": 20,
+      "build_s": 0.7718487370293587
+    },
+    "ty": {
+      "n_records": 2062536,
+      "root": "84531f6d949a01591540ef28706841db8d61480d8c40b59147ca8251bc489fa4",
+      "depth": 21,
+      "build_s": 3.0145429100375623
+    },
+    "ylc": {
+      "n_records": 624911,
+      "root": "5f6537d170cf40c810a9d34a2272f1c0feb1a9297b976af5a1c10ce475f054ef",
+      "depth": 20,
+      "build_s": 0.9085298711434007
+    }
+  },
+  "chain": {
+    "chc": {
+      "institution": "junyi-chc-1792392387",
+      "tx_id": "5fa8d5fb72859345491df5fd23291e171c98e22c9c14ed206f119d56d02668ea",
+      "block": 1332,
+      "latency_ms": 2038.640125
+    },
+    "cy": {
+      "institution": "junyi-cy-1792392387",
+      "tx_id": "9b90dec71a7ac1a4c6286348f4f7b0f92bdca45c62a49d8697ab51a2e98a1160",
+      "block": 1334,
+      "latency_ms": 2037.558249
+    },
+    "hc": {
+      "institution": "junyi-hc-1792392387",
+      "tx_id": "cb21380852995870cd50a6068cff906a47587d15a3caf481b05e3a70827675d1",
+      "block": 1336,
+      "latency_ms": 2034.185569
+    },
+    "hlc": {
+      "institution": "junyi-hlc-1792392387",
+      "tx_id": "d0542f9a2682eefd929556b0a5caebb4aeb86308ba7f1e60e1b4c3f93a7eac44",
+      "block": 1338,
+      "latency_ms": 2033.103917
+    },
+    "ilc": {
+      "institution": "junyi-ilc-1792392387",
+      "tx_id": "628626ed48ee02007db991f46694cdafff48f4211adf2df13cf1f60e4b6bdb22",
+      "block": 1340,
+      "latency_ms": 2034.483502
+    },
+    "kh": {
+      "institution": "junyi-kh-1792392387",
+      "tx_id": "80c24d65cbeb288e5437d4c9e211c10329b9bc9ef163c9d03cebdbf78c112785",
+      "block": 1342,
+      "latency_ms": 2033.884666
+    },
+    "kl": {
+      "institution": "junyi-kl-1792392387",
+      "tx_id": "91de802e0a45c85a52f7689f87680b6d8826a57262d372d897bf88856bc61c1b",
+      "block": 1344,
+      "latency_ms": 2034.970414
+    },
+    "km": {
+      "institution": "junyi-km-1792392387",
+      "tx_id": "b8a46feba1822bd9a86a155e7e38e4832c3c3c371da0ce7053461dd51fc7bc89",
+      "block": 1346,
+      "latency_ms": 2082.730834
+    },
+    "lj": {
+      "institution": "junyi-lj-1792392387",
+      "tx_id": "1c25080934acec1992b3c368fd67a7c98cb90d7832ae5bdf0a0983bfcb33be88",
+      "block": 1348,
+      "latency_ms": 2037.829023
+    },
+    "ml": {
+      "institution": "junyi-ml-1792392387",
+      "tx_id": "17feffc302639f029e49ca28da58317b4d0387fccf075c4a17218cd08742384d",
+      "block": 1350,
+      "latency_ms": 2031.635939
+    },
+    "ntct": {
+      "institution": "junyi-ntct-1792392387",
+      "tx_id": "2361e9ae3720f1ad94bd3a25276220f7e9a6e1e90cfa4e6c6fe4ec99ebcb55df",
+      "block": 1352,
+      "latency_ms": 2033.559098
+    },
+    "ntpc": {
+      "institution": "junyi-ntpc-1792392387",
+      "tx_id": "ecf2ea82fbdfb87ff13c5dd14ed1db660de74f5514928930543795e82034fdad",
+      "block": 1354,
+      "latency_ms": 2034.491958
+    },
+    "phc": {
+      "institution": "junyi-phc-1792392387",
+      "tx_id": "38682bfa1f64072e5e6c06caf34f40c2f871a126e48b1357350a8447e1db1f0f",
+      "block": 1356,
+      "latency_ms": 2033.902061
+    },
+    "ptc": {
+      "institution": "junyi-ptc-1792392387",
+      "tx_id": "a934ee117d23812bfae4c2fb84fcde246e1c14d2d40015629ba19f47731867d6",
+      "block": 1358,
+      "latency_ms": 2034.665001
+    },
+    "tc": {
+      "institution": "junyi-tc-1792392387",
+      "tx_id": "de410ecd98c1a66fe1185855550042030e2b3ed442f4b2ca4fc4fdb00813bf3b",
+      "block": 1360,
+      "latency_ms": 2032.949199
+    },
+    "tn": {
+      "institution": "junyi-tn-1792392387",
+      "tx_id": "fc482e5a46475069e172a8bf7c371a6206f6296b4b41ca6f9171d5c09e676788",
+      "block": 1362,
+      "latency_ms": 2036.578568
+    },
+    "tp": {
+      "institution": "junyi-tp-1792392387",
+      "tx_id": "3557eb6f3b9fbcb5be47929de5820a2e7a4f1dbcc3d0606a0ca4d092b76036d1",
+      "block": 1364,
+      "latency_ms": 2034.208743
+    },
+    "ttct": {
+      "institution": "junyi-ttct-1792392387",
+      "tx_id": "43ead0c37401cef1722061746799ce3df8795178878f6e6c405ec70d7a7b1e4b",
+      "block": 1366,
+      "latency_ms": 2031.458858
+    },
+    "ty": {
+      "institution": "junyi-ty-1792392387",
+      "tx_id": "bf9cb4b86137fd94b0eee6c7abfc59e4ba71fd73b369bfc1a9b8b27b8f79dcb0",
+      "block": 1368,
+      "latency_ms": 2030.750704
+    },
+    "ylc": {
+      "institution": "junyi-ylc-1792392387",
+      "tx_id": "1684e7810566544d15e82674e275031bdf19998a543cc7db1efb9ac87957984f",
+      "block": 1370,
+      "latency_ms": 2031.367749
+    }
+  },
+  "note": "single-threaded CPython hashlib; Junyi log as cached by lfchain.data.prep_junyi"
+}

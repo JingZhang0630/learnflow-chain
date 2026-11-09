@@ -1,0 +1,17 @@
+\begin{widetable}
+\centering
+\caption{Anchoring on Fabric: per-record transactions versus Merkle batches of $B$ records (closed loop, 16 clients, 120~s measurement after 15~s warm-up, mean of 3 repetitions). Ledger bytes are the growth of the peer's block store per committed record.}
+\label{tab:bench}
+\small
+\begin{tabular}{rrrrrrr}
+\toprule
+$B$ & tx/s & records/s & p50 (ms) & p95 (ms) & bytes/record & peer CPU (\%) \\
+\midrule
+1 (per record) & 106.5$\pm$11.0 & 106 & 165 & 226 & 4,405.2 & 102 \\
+10 & 100.6$\pm$3.3 & 1,006 & 174 & 239 & 442.3 & 102 \\
+100 & 98.5$\pm$1.9 & 9,847 & 177 & 242 & 44.3 & 101 \\
+500 & 88.9$\pm$0.8 & 44,447 & 192 & 266 & 8.9 & 90 \\
+1000 & 77.5$\pm$1.1 & 77,494 & 213 & 309 & 4.4 & 79 \\
+\bottomrule
+\end{tabular}
+\end{widetable}

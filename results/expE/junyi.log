@@ -1,0 +1,56 @@
+[07:00:23] Junyi seed=20261018
+  Junyi s=20261018 DP-FED           eps=0.5 auc=0.7288 b_rmse=0.8277 rho=0.634
+  Junyi s=20261018 DP-FED-SECAGG    eps=0.5 auc=0.7459 b_rmse=0.4247 rho=0.869
+  Junyi s=20261018 DP-FED           eps=1 auc=0.7415 b_rmse=0.5868 rho=0.794
+  Junyi s=20261018 DP-FED-SECAGG    eps=1 auc=0.7486 b_rmse=0.3012 rho=0.933
+  Junyi s=20261018 DP-FED           eps=2 auc=0.7468 b_rmse=0.4054 rho=0.890
+  Junyi s=20261018 DP-FED-SECAGG    eps=2 auc=0.7495 b_rmse=0.2387 rho=0.957
+  Junyi s=20261018 DP-FED           eps=4 auc=0.7489 b_rmse=0.2862 rho=0.941
+  Junyi s=20261018 DP-FED-SECAGG    eps=4 auc=0.7497 b_rmse=0.2170 rho=0.966
+  Junyi s=20261018 DP-FED           eps=8 auc=0.7496 b_rmse=0.2324 rho=0.961
+  Junyi s=20261018 DP-FED-SECAGG    eps=8 auc=0.7498 b_rmse=0.2097 rho=0.969
+[07:16:40] Junyi seed=20261019
+  Junyi s=20261019 DP-FED           eps=0.5 auc=0.7279 b_rmse=0.8254 rho=0.613
+  Junyi s=20261019 DP-FED-SECAGG    eps=0.5 auc=0.7456 b_rmse=0.4260 rho=0.865
+  Junyi s=20261019 DP-FED           eps=1 auc=0.7409 b_rmse=0.5766 rho=0.785
+  Junyi s=20261019 DP-FED-SECAGG    eps=1 auc=0.7487 b_rmse=0.2887 rho=0.938
+  Junyi s=20261019 DP-FED           eps=2 auc=0.7467 b_rmse=0.3881 rho=0.895
+  Junyi s=20261019 DP-FED-SECAGG    eps=2 auc=0.7496 b_rmse=0.2264 rho=0.962
+  Junyi s=20261019 DP-FED           eps=4 auc=0.7489 b_rmse=0.2727 rho=0.946
+  Junyi s=20261019 DP-FED-SECAGG    eps=4 auc=0.7498 b_rmse=0.2095 rho=0.969
+  Junyi s=20261019 DP-FED           eps=8 auc=0.7496 b_rmse=0.2228 rho=0.964
+  Junyi s=20261019 DP-FED-SECAGG    eps=8 auc=0.7498 b_rmse=0.2047 rho=0.970
+[07:31:35] Junyi seed=20261020
+  Junyi s=20261020 DP-FED           eps=0.5 auc=0.7288 b_rmse=0.7841 rho=0.646
+  Junyi s=20261020 DP-FED-SECAGG    eps=0.5 auc=0.7451 b_rmse=0.4202 rho=0.879
+  Junyi s=20261020 DP-FED           eps=1 auc=0.7407 b_rmse=0.5607 rho=0.801
+  Junyi s=20261020 DP-FED-SECAGG    eps=1 auc=0.7479 b_rmse=0.2938 rho=0.937
+  Junyi s=20261020 DP-FED           eps=2 auc=0.7460 b_rmse=0.3845 rho=0.901
+  Junyi s=20261020 DP-FED-SECAGG    eps=2 auc=0.7489 b_rmse=0.2279 rho=0.962
+  Junyi s=20261020 DP-FED           eps=4 auc=0.7482 b_rmse=0.2766 rho=0.948
+  Junyi s=20261020 DP-FED-SECAGG    eps=4 auc=0.7491 b_rmse=0.2060 rho=0.969
+  Junyi s=20261020 DP-FED           eps=8 auc=0.7490 b_rmse=0.2231 rho=0.964
+  Junyi s=20261020 DP-FED-SECAGG    eps=8 auc=0.7492 b_rmse=0.2025 rho=0.971
+[07:47:58] Junyi seed=20261021
+  Junyi s=20261021 DP-FED           eps=0.5 auc=0.7280 b_rmse=0.8043 rho=0.606
+  Junyi s=20261021 DP-FED-SECAGG    eps=0.5 auc=0.7454 b_rmse=0.4703 rho=0.858
+  Junyi s=20261021 DP-FED           eps=1 auc=0.7407 b_rmse=0.5674 rho=0.772
+  Junyi s=20261021 DP-FED-SECAGG    eps=1 auc=0.7484 b_rmse=0.3247 rho=0.926
+  Junyi s=20261021 DP-FED           eps=2 auc=0.7466 b_rmse=0.3865 rho=0.884
+  Junyi s=20261021 DP-FED-SECAGG    eps=2 auc=0.7493 b_rmse=0.2459 rho=0.956
+  Junyi s=20261021 DP-FED           eps=4 auc=0.7487 b_rmse=0.2809 rho=0.940
+  Junyi s=20261021 DP-FED-SECAGG    eps=4 auc=0.7496 b_rmse=0.2189 rho=0.965
+  Junyi s=20261021 DP-FED           eps=8 auc=0.7494 b_rmse=0.2347 rho=0.959
+  Junyi s=20261021 DP-FED-SECAGG    eps=8 auc=0.7496 b_rmse=0.2091 rho=0.968
+[08:06:33] Junyi seed=20261022
+  Junyi s=20261022 DP-FED           eps=0.5 auc=0.7264 b_rmse=0.8168 rho=0.607
+  Junyi s=20261022 DP-FED-SECAGG    eps=0.5 auc=0.7453 b_rmse=0.4467 rho=0.875
+  Junyi s=20261022 DP-FED           eps=1 auc=0.7399 b_rmse=0.5758 rho=0.779
+  Junyi s=20261022 DP-FED-SECAGG    eps=1 auc=0.7483 b_rmse=0.3004 rho=0.938
+  Junyi s=20261022 DP-FED           eps=2 auc=0.7462 b_rmse=0.3979 rho=0.893
+  Junyi s=20261022 DP-FED-SECAGG    eps=2 auc=0.7494 b_rmse=0.2250 rho=0.963
+  Junyi s=20261022 DP-FED           eps=4 auc=0.7487 b_rmse=0.2872 rho=0.944
+  Junyi s=20261022 DP-FED-SECAGG    eps=4 auc=0.7496 b_rmse=0.2054 rho=0.969
+  Junyi s=20261022 DP-FED           eps=8 auc=0.7494 b_rmse=0.2381 rho=0.960
+  Junyi s=20261022 DP-FED-SECAGG    eps=8 auc=0.7497 b_rmse=0.2025 rho=0.971
+done

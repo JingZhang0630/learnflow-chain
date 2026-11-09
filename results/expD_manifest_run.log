@@ -1,0 +1,18 @@
+{
+ "n_records": 16217311,
+ "record_bytes": 29,
+ "raw_bytes": 470302019,
+ "n_institutions": 20,
+ "load_s": 3.140388837084174,
+ "leaf_hash_s": 22.486704036826268,
+ "leaf_hash_records_per_s": 721195.5550907353,
+ "tree_build_s": 46.696363574126735,
+ "tree_records_per_s": 347292.803094963,
+ "largest_institution": "ntpc",
+ "largest_depth": 22,
+ "proof_bytes": 726,
+ "proof_verify_us": 35.98898206837475,
+ "proofs_valid": true,
+ "onchain_bytes_per_institution_root": 32,
+ "note": "single-threaded CPython hashlib; Junyi log as cached by lfchain.data.prep_junyi"
+}

@@ -1,0 +1,26 @@
+\begin{widetable}
+\centering
+\caption{Exploratory ablation of DP-FED (not part of the frozen protocol): test AUC at three privacy levels and difficulty RMSE at $\varepsilon=2$ (against truth for synthetic data, against CEN for real logs), mean over seeds, frozen hyper-parameters.}
+\label{tab:ablation}
+\small
+\begin{tabular}{llcccc}
+\toprule
+Dataset & Variant & AUC $\varepsilon{=}1$ & AUC $\varepsilon{=}2$ & AUC $\varepsilon{=}8$ & RMSE $\varepsilon{=}2$ \\
+\midrule
+SYN-K10-nonIID & full (v2) & 0.7426 & 0.7750 & 0.8010 & 0.861 \\
+ & without pseudo-count & 0.6677 & 0.7202 & 0.7939 & 1.698 \\
+ & without damping & 0.6450 & 0.7071 & 0.7960 & 5.163 \\
+ & neither & 0.6250 & 0.6859 & 0.7919 & 5.225 \\
+\midrule
+ASSIST09 & full (v2) & 0.6183 & 0.6335 & 0.6843 & 1.448 \\
+ & without pseudo-count & 0.5929 & 0.6034 & 0.6584 & 2.455 \\
+ & without damping & 0.5619 & 0.5775 & 0.6367 & 7.177 \\
+ & neither & 0.5587 & 0.5741 & 0.6300 & 7.379 \\
+\midrule
+Junyi & full (v2) & 0.7407 & 0.7465 & 0.7494 & 0.392 \\
+ & without pseudo-count & 0.7159 & 0.7419 & 0.7494 & 0.722 \\
+ & without damping & 0.6968 & 0.7303 & 0.7484 & 5.337 \\
+ & neither & 0.6862 & 0.7281 & 0.7484 & 5.126 \\
+\bottomrule
+\end{tabular}
+\end{widetable}

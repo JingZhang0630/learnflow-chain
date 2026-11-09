@@ -1,6 +1,10 @@
 \documentclass[pdflatex,iicol,sn-mathphys-num]{sn-jnl}
 
 \usepackage{graphicx}
+\usepackage{xurl}
+% ORCID IDs are entered in the Editorial Manager author records; they are also printed
+% as plain text in the affiliation line below (no external logo file needed).
+
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{amsthm}
 \usepackage{booktabs}
@@ -687,8 +691,14 @@
 
 \title[LearnFlow-Chain]{LearnFlow-Chain: Task-Bound Purpose Enforcement and Ledger-Anchored Provenance for Privacy-Preserving Cross-Institution Item Calibration}
 
+\author[1]{\fnm{Jing} \sur{Zhang}}\email{zhangjing@office.ysu.ac.kr}
+\author[1]{\fnm{Zexiao} \sur{Weng}}\email{wengzexiao@office.ysu.ac.kr}
+\author*[1]{\fnm{Jin-whan} \sur{Kim}}\email{kjw@ysu.ac.kr}
 
-\abstract{Institutions that calibrate item difficulty together need more students per item than any one of them has, but their learning logs describe often under-age learners, so a joint computation must stay bound to a declared purpose, admit only currently authorised participants and leave a record that every member can verify. We present LearnFlow-Chain, a privacy-preserving calibration system built on a permissioned distributed ledger. Raw learning events and student abilities stay at each institution. Every federated round is admitted through an endorsed ledger transaction that evaluates a purpose- and task-bound access predicate, and the lineage from dataset version to published result is anchored as identifiers, states and Merkle roots. The calibration adds student-level differential privacy with noise added by each institution rather than by a trusted aggregator, and refuses tasks that exceed a privacy budget. On Hyperledger Fabric, a revoked institution was excluded from the first round after the revocation committed, an auditor reproduced all \EtoeAuditRecords{} admission decisions from the ledger, and the off-chain policy engine and the chaincode agreed on \COneN{} random and \COneBndN{} boundary requests. On two public learning logs split by school and by city, differential privacy at $\varepsilon=2$ lowered the area under the receiver operating characteristic curve from \JunyiFEDAuc{} to \JunyiDPFEDTwoAuc{} with \JunyiUsers{} students but from \AssistFEDAuc{} to \AssistDPFEDTwoAuc{} with \AssistUsers{} students, and dispensing with the trusted aggregator multiplied difficulty error by \ExRatioMin{} to \ExRatioMax{}. Batching records under Merkle roots raised anchoring throughput from \BenchRecRec{} to \BenchThousandRec{} records per second.}
+\affil*[1]{\orgname{Youngsan University}, \orgaddress{\street{288 Junam-ro (Junam-dong)}, \city{Yangsan-si}, \state{Gyeongsangnam-do}, \postcode{50510}, \country{Republic of Korea}}. Corresponding author: Jin-whan Kim. ORCID: 0009-0000-4828-2869 (J. Zhang); 0009-0009-8600-8954 (Z. Weng)}
+
+
+\abstract{Cross-institution item calibration needs more students per item than one institution has, but learning logs describe identifiable learners, so the joint computation must be bound to a declared purpose, admit only authorised participants and leave a verifiable record. We present LearnFlow-Chain, a privacy-preserving calibration system on a permissioned distributed ledger. Raw events and abilities stay at each institution; every federated round is admitted by an endorsed, purpose- and task-bound predicate; lineage is anchored as digests and Merkle roots. Student-level differential privacy is added by each institution, without a trusted aggregator, and tasks exceeding the budget are refused. On Hyperledger Fabric, a revoked institution was excluded from the next round and an auditor reproduced 1,049 admission decisions. On two public logs, $\varepsilon=2$ cost little accuracy with 50,047 students but much with 2,010; removing the trusted aggregator multiplied difficulty error by 1.1--1.9; Merkle batching raised anchoring throughput to 77,494 records per second.}
 
 \keywords{Distributed ledger technology, Purpose-based access control, Differential privacy, Federated learning, Hyperledger Fabric, Data provenance}
 
@@ -985,17 +995,41 @@ LearnFlow-Chain treats cross-institution calibration as a governed computation: 
 
 \section*{Declarations}
 
-\textbf{Funding.} To be completed by the authors.
+\textbf{Funding.} The authors declare that no funds, grants, or other support were received during the
+preparation of this manuscript.
 
-\textbf{Competing interests.} To be completed by the authors.
+\textbf{Competing interests.} The authors have no relevant financial or non-financial interests to
+disclose.
 
-\textbf{Ethics approval and consent.} Both real datasets are public, de-identified learning logs used under their research-use terms; no data were collected from students and no re-identification was attempted. The synthetic data describe no real persons.
+\textbf{Author contributions.} All authors contributed to the study conception and design.
+Conceptualization, methodology, software and formal analysis were performed by Jing Zhang;
+validation and investigation by Zexiao Weng; supervision and writing--review and editing by
+Jin-whan Kim. The first draft of the manuscript was written by Jing Zhang and Zexiao Weng; all
+authors commented on previous versions of the manuscript, read and approved the final manuscript.
 
-\textbf{Data availability.} ASSISTments 2009--2010~\cite{feng2009addressing} and the Junyi Academy log~\cite{junyi2020dataset} are publicly available from their providers and are not redistributed.
+\textbf{Ethics approval and consent to participate.} Both real datasets are public, de-identified
+learning logs used under their research-use terms; no data were collected from students and no
+re-identification was attempted. The synthetic data describe no real persons.
 
-\textbf{Code availability.} To be completed by the authors.
+\textbf{Consent for publication.} All authors consent to the publication of this manuscript.
 
-\textbf{Use of AI tools.} To be completed by the authors.
+\textbf{Data availability.} ASSISTments 2009--2010~\cite{feng2009addressing} and the Junyi Academy
+log~\cite{junyi2020dataset} are publicly available from their providers and are not redistributed.
+
+\textbf{Code availability.} The prototype code is available from the corresponding author on
+reasonable request.
+
+\textbf{Use of AI tools.} During the preparation of this manuscript, the authors used
+[[AI TOOL NAME / VERSION TO BE CONFIRMED]] in a strictly assistive capacity, limited to:
+(i) language polishing of author-written text, including grammar, style and readability;
+(ii) technical support in implementing, refactoring and debugging the simulation scripts;
+and (iii) preliminary literature discovery. The research conception, methodology, algorithm
+and model design, experimental setup, parameter selection, and all data generation, processing
+and analysis were carried out entirely by the authors; no AI tool had access to, or was used
+in connection with, any research data. All AI-assisted outputs---including code, suggested
+references and edited text---were independently verified, tested and revised by the authors
+before inclusion. The authors take full responsibility for the originality, accuracy and
+integrity of the content, and for all interpretations and conclusions presented in this work.
 
 \bibliography{references}
 

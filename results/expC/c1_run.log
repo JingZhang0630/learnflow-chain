@@ -1,0 +1,271 @@
+{
+ "run": "c1793917332",
+ "n_requests": 10000,
+ "agreement": 1.0,
+ "n_disagree": 0,
+ "reason_counts": {
+  "TASK_STATE_FORBIDS": 887,
+  "ROLE_FORBIDS_ACTION": 7067,
+  "OUT_OF_SCOPE": 351,
+  "IDENTITY_INVALID": 477,
+  "NOT_PARTICIPANT": 343,
+  "TASK_UNKNOWN": 86,
+  "ALLOW": 592,
+  "GRANT_EXPIRED": 47,
+  "NO_GRANT": 103,
+  "GRANT_REVOKED": 13,
+  "OUTPUT_NOT_ALLOWED": 22,
+  "PURPOSE_MISMATCH": 12
+ },
+ "allow_rate": 0.0592,
+ "n_tasks": 25,
+ "n_grants": 164,
+ "n_revoked": 32,
+ "setup_seconds": 600.475016117096,
+ "pdp_us_per_decision": 1.3272632844746113,
+ "chain_batch200_ms": {
+  "mean": 2628.7963076122105,
+  "p95": 4186.302557319867
+ },
+ "chain_single_check_ms": {
+  "mean": 43.478017144370824,
+  "p50": 41.08744394034147,
+  "p95": 64.01901080971582
+ },
+ "boundary": {
+  "n_requests": 2256,
+  "agreement": 1.0,
+  "n_disagree": 0,
+  "reason_counts": {
+   "NOT_PARTICIPANT": 916,
+   "TASK_STATE_FORBIDS": 1009,
+   "ALLOW": 109,
+   "GRANT_EXPIRED": 107,
+   "GRANT_REVOKED": 56,
+   "PURPOSE_MISMATCH": 59
+  }
+ },
+ "negative_write_tests": {
+  "foreign_msp_registers_dataset": {
+   "expected": "CALLER_NOT_INSTITUTION",
+   "observed": "CALLER_NOT_INSTITUTION",
+   "pass": true
+  },
+  "duplicate_dataset_version": {
+   "expected": "DATASET_VERSION_EXISTS",
+   "observed": "DATASET_VERSION_EXISTS",
+   "pass": true
+  },
+  "foreign_msp_revokes_grant": {
+   "expected": "CALLER_NOT_INSTITUTION",
+   "observed": "CALLER_NOT_INSTITUTION",
+   "pass": true
+  },
+  "foreign_msp_grants_for_other_institution": {
+   "expected": "CALLER_NOT_INSTITUTION",
+   "observed": "CALLER_NOT_INSTITUTION",
+   "pass": true
+  },
+  "double_revoke": {
+   "expected": "ALREADY_REVOKED",
+   "observed": "ALREADY_REVOKED",
+   "pass": true
+  },
+  "replayed_grant_id": {
+   "expected": "GRANT_EXISTS",
+   "observed": "GRANT_EXISTS",
+   "pass": true
+  },
+  "illegal_transition_completed_to_running": {
+   "expected": "ILLEGAL_TRANSITION",
+   "observed": "ILLEGAL_TRANSITION",
+   "pass": true
+  },
+  "new_task_not_draft": {
+   "expected": "NEW_TASK_MUST_BE_DRAFT",
+   "observed": "NEW_TASK_MUST_BE_DRAFT",
+   "pass": true
+  },
+  "calibration_on_unfinished_task": {
+   "expected": "TASK_NOT_COMPLETED",
+   "observed": "TASK_NOT_COMPLETED",
+   "pass": true
+  },
+  "malformed_digest": {
+   "expected": "BAD_DIGEST",
+   "observed": "BAD_DIGEST",
+   "pass": true
+  },
+  "foreign_msp_requests_admission": {
+   "expected": "CALLER_NOT_INSTITUTION",
+   "observed": "CALLER_NOT_INSTITUTION",
+   "pass": true
+  },
+  "replayed_anchor_id": {
+   "expected": "ANCHOR_EXISTS",
+   "observed": "ANCHOR_EXISTS",
+   "pass": true
+  }
+ },
+ "revocation_latency": {
+  "n": 30,
+  "effect_s_mean": 2.2845565569509443,
+  "effect_s_p50": 2.26669825904537,
+  "effect_s_p95": 2.429674312262796,
+  "effect_s_max": 2.4780105960089713,
+  "commit_s_mean": 2.2313232348300516,
+  "max_extra_polls": 0,
+  "samples": [
+   {
+    "commit_s": 2.207719162106514,
+    "effect_s": 2.238807100104168,
+    "extra_polls": 0
+   },
+   {
+    "commit_s": 2.322135150898248,
+    "effect_s": 2.3591452199034393,
+    "extra_polls": 0
+   },
+   {
+    "commit_s": 2.1674390439875424,
+    "effect_s": 2.246577513869852,
+    "extra_polls": 0
+   },
+   {
+    "commit_s": 2.1737489399965852,
+    "effect_s": 2.20744514092803,
+    "extra_polls": 0
+   },
+   {
+    "commit_s": 2.1525274380110204,
+    "effect_s": 2.187266892986372,
+    "extra_polls": 0
+   },
+   {
+    "commit_s": 2.181446012109518,
+    "effect_s": 2.225119033129886,
+    "extra_polls": 0
+   },
+   {
+    "commit_s": 2.2151829299982637,
+    "effect_s": 2.3433217389974743,
+    "extra_polls": 0
+   },
+   {
+    "commit_s": 2.23060812195763,
+    "effect_s": 2.267939673969522,
+    "extra_polls": 0
+   },
+   {
+    "commit_s": 2.1945097830612212,
+    "effect_s": 2.2401934838853776,
+    "extra_polls": 0
+   },
+   {
+    "commit_s": 2.2372575169429183,
+    "effect_s": 2.2978390420321375,
+    "extra_polls": 0
+   },
+   {
+    "commit_s": 2.1751371659338474,
+    "effect_s": 2.223429720150307,
+    "extra_polls": 0
+   },
+   {
+    "commit_s": 2.2940519279800355,
+    "effect_s": 2.436102370964363,
+    "extra_polls": 0
+   },
+   {
+    "commit_s": 2.2109666718170047,
+    "effect_s": 2.2367308638058603,
+    "extra_polls": 0
+   },
+   {
+    "commit_s": 2.3169104231055826,
+    "effect_s": 2.4218177960719913,
+    "extra_polls": 0
+   },
+   {
+    "commit_s": 2.3148724630009383,
+    "effect_s": 2.3473336820024997,
+    "extra_polls": 0
+   },
+   {
+    "commit_s": 2.2319994950667024,
+    "effect_s": 2.267340298043564,
+    "extra_polls": 0
+   },
+   {
+    "commit_s": 2.166181988082826,
+    "effect_s": 2.21105481707491,
+    "extra_polls": 0
+   },
+   {
+    "commit_s": 2.2302712469827384,
+    "effect_s": 2.2756966480519623,
+    "extra_polls": 0
+   },
+   {
+    "commit_s": 2.2050749140325934,
+    "effect_s": 2.2539630299434066,
+    "extra_polls": 0
+   },
+   {
+    "commit_s": 2.1843461918178946,
+    "effect_s": 2.219106636941433,
+    "extra_polls": 0
+   },
+   {
+    "commit_s": 2.1795017328113317,
+    "effect_s": 2.2190789878368378,
+    "extra_polls": 0
+   },
+   {
+    "commit_s": 2.2228001879993826,
+    "effect_s": 2.268401748035103,
+    "extra_polls": 0
+   },
+   {
+    "commit_s": 2.1828378189820796,
+    "effect_s": 2.216040004044771,
+    "extra_polls": 0
+   },
+   {
+    "commit_s": 2.191667971201241,
+    "effect_s": 2.2358818920329213,
+    "extra_polls": 0
+   },
+   {
+    "commit_s": 2.244629302062094,
+    "effect_s": 2.298667403869331,
+    "extra_polls": 0
+   },
+   {
+    "commit_s": 2.3367006808985025,
+    "effect_s": 2.394129579886794,
+    "extra_polls": 0
+   },
+   {
+    "commit_s": 2.2947672170121223,
+    "effect_s": 2.3546509130392224,
+    "extra_polls": 0
+   },
+   {
+    "commit_s": 2.199590949108824,
+    "effect_s": 2.266056220047176,
+    "extra_polls": 0
+   },
+   {
+    "commit_s": 2.4272725000046194,
+    "effect_s": 2.4780105960089713,
+    "extra_polls": 0
+   },
+   {
+    "commit_s": 2.2475420979317278,
+    "effect_s": 2.2995486608706415,
+    "extra_polls": 0
+   }
+  ]
+ }
+}

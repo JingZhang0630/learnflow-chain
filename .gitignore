@@ -1,16 +1,30 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Node
+node_modules/
+
+# Public learning logs are NOT redistributed (see README, Data)
+data/
+*.parquet
+*.npy
+*.bin
+
+# Local, third-party or machine-specific installs
+fabric/fabric-samples/
+fabric/bin/
+fabric/config/
+tools/
+
 # LaTeX build artefacts
 *.aux
 *.bbl
 *.blg
-*.log
 *.out
 *.toc
-*.lof
-*.lot
-*.fls
-*.fdb_latexmk
 *.synctex.gz
-*.spl
-
-# macOS
 .DS_Store

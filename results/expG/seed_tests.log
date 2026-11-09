@@ -1,0 +1,3 @@
+  FED vs LOC: mean diff -0.00055 (sd 7.063131196872988e-05), wilcoxon p=0.0625
+  FED vs CNT: mean diff +0.00254 (sd 6.212050693097025e-05), wilcoxon p=0.0625
+  DP-FED vs DP-CNT: mean diff +0.04588 (sd 0.0031457664241207476), wilcoxon p=0.0625

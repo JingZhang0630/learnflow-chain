@@ -1,0 +1,22 @@
+\begin{widetable}
+\centering
+\caption{Real multi-institution logs: test-set prediction and agreement with the centralised reference, mean over seeds ($\pm$ s.d. for AUC).}
+\label{tab:real}
+\small
+\begin{tabular}{llcccc}
+\toprule
+Dataset & Method & AUC & Brier & b-RMSE & Spearman $\rho$ \\
+\midrule
+ASSIST09 & CEN & 0.7580$\pm$0.0022 & 0.1836 & 0.000 & 1.000 \\
+ & LOC & 0.7481$\pm$0.0032 & 0.1867 & 0.726 & 0.376 \\
+ & CNT & 0.7472$\pm$0.0031 & 0.1870 & 0.343 & 0.916 \\
+ & FED & 0.7580$\pm$0.0022 & 0.1836 & 0.000 & 1.000 \\
+\midrule
+Junyi & CEN & 0.7507$\pm$0.0002 & 0.1714 & 0.000 & 1.000 \\
+ & LOC & 0.7513$\pm$0.0003 & 0.1712 & 0.271 & 0.938 \\
+ & CNT & 0.7482$\pm$0.0003 & 0.1721 & 0.272 & 0.953 \\
+ & FED & 0.7507$\pm$0.0002 & 0.1714 & 0.000 & 1.000 \\
+\bottomrule
+\end{tabular}
+\par\smallskip\footnotesize b-RMSE and $\rho$ are measured against CEN, which is a reference, not ground truth; CEN and FED therefore show 0 and 1.
+\end{widetable}

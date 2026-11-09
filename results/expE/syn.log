@@ -1,0 +1,221 @@
+[06:58:48] SYN-K3-IID seed=20261018
+  SYN-K3-IID s=20261018 DP-FED           eps=0.5 auc=0.6509 b_rmse=1.4688 rho=0.284
+  SYN-K3-IID s=20261018 DP-FED-SECAGG    eps=0.5 auc=0.6714 b_rmse=1.2748 rho=0.328
+  SYN-K3-IID s=20261018 DP-FED           eps=1 auc=0.6803 b_rmse=1.1736 rho=0.420
+  SYN-K3-IID s=20261018 DP-FED-SECAGG    eps=1 auc=0.7072 b_rmse=0.9692 rho=0.519
+  SYN-K3-IID s=20261018 DP-FED           eps=2 auc=0.7145 b_rmse=0.8757 rho=0.596
+  SYN-K3-IID s=20261018 DP-FED-SECAGG    eps=2 auc=0.7401 b_rmse=0.7126 rho=0.720
+  SYN-K3-IID s=20261018 DP-FED           eps=4 auc=0.7440 b_rmse=0.6484 rho=0.763
+  SYN-K3-IID s=20261018 DP-FED-SECAGG    eps=4 auc=0.7613 b_rmse=0.5421 rho=0.859
+  SYN-K3-IID s=20261018 DP-FED           eps=8 auc=0.7617 b_rmse=0.5137 rho=0.873
+  SYN-K3-IID s=20261018 DP-FED-SECAGG    eps=8 auc=0.7710 b_rmse=0.4567 rho=0.925
+[06:58:49] SYN-K3-nonIID seed=20261018
+  SYN-K3-nonIID s=20261018 DP-FED           eps=0.5 auc=0.7079 b_rmse=1.4829 rho=0.272
+  SYN-K3-nonIID s=20261018 DP-FED-SECAGG    eps=0.5 auc=0.7203 b_rmse=1.3191 rho=0.312
+  SYN-K3-nonIID s=20261018 DP-FED           eps=1 auc=0.7377 b_rmse=1.2018 rho=0.403
+  SYN-K3-nonIID s=20261018 DP-FED-SECAGG    eps=1 auc=0.7550 b_rmse=1.0328 rho=0.480
+  SYN-K3-nonIID s=20261018 DP-FED           eps=2 auc=0.7676 b_rmse=0.9240 rho=0.563
+  SYN-K3-nonIID s=20261018 DP-FED-SECAGG    eps=2 auc=0.7840 b_rmse=0.7880 rho=0.657
+  SYN-K3-nonIID s=20261018 DP-FED           eps=4 auc=0.7891 b_rmse=0.7170 rho=0.711
+  SYN-K3-nonIID s=20261018 DP-FED-SECAGG    eps=4 auc=0.8019 b_rmse=0.6235 rho=0.798
+  SYN-K3-nonIID s=20261018 DP-FED           eps=8 auc=0.8028 b_rmse=0.5863 rho=0.826
+  SYN-K3-nonIID s=20261018 DP-FED-SECAGG    eps=8 auc=0.8093 b_rmse=0.5433 rho=0.869
+[06:58:49] SYN-K10-IID seed=20261018
+  SYN-K10-IID s=20261018 DP-FED           eps=0.5 auc=0.6773 b_rmse=1.3156 rho=0.364
+  SYN-K10-IID s=20261018 DP-FED-SECAGG    eps=0.5 auc=0.7409 b_rmse=0.8031 rho=0.689
+  SYN-K10-IID s=20261018 DP-FED           eps=1 auc=0.7185 b_rmse=0.9754 rho=0.568
+  SYN-K10-IID s=20261018 DP-FED-SECAGG    eps=1 auc=0.7697 b_rmse=0.5256 rho=0.859
+  SYN-K10-IID s=20261018 DP-FED           eps=2 auc=0.7542 b_rmse=0.6748 rho=0.774
+  SYN-K10-IID s=20261018 DP-FED-SECAGG    eps=2 auc=0.7840 b_rmse=0.3425 rho=0.949
+  SYN-K10-IID s=20261018 DP-FED           eps=4 auc=0.7768 b_rmse=0.4467 rho=0.907
+  SYN-K10-IID s=20261018 DP-FED-SECAGG    eps=4 auc=0.7883 b_rmse=0.2588 rho=0.976
+  SYN-K10-IID s=20261018 DP-FED           eps=8 auc=0.7856 b_rmse=0.3171 rho=0.961
+  SYN-K10-IID s=20261018 DP-FED-SECAGG    eps=8 auc=0.7893 b_rmse=0.2330 rho=0.982
+[06:58:52] SYN-K10-nonIID seed=20261018
+  SYN-K10-nonIID s=20261018 DP-FED           eps=0.5 auc=0.7136 b_rmse=1.3857 rho=0.324
+  SYN-K10-nonIID s=20261018 DP-FED-SECAGG    eps=0.5 auc=0.7672 b_rmse=0.9245 rho=0.616
+  SYN-K10-nonIID s=20261018 DP-FED           eps=1 auc=0.7484 b_rmse=1.1012 rho=0.491
+  SYN-K10-nonIID s=20261018 DP-FED-SECAGG    eps=1 auc=0.7900 b_rmse=0.6859 rho=0.770
+  SYN-K10-nonIID s=20261018 DP-FED           eps=2 auc=0.7779 b_rmse=0.8329 rho=0.672
+  SYN-K10-nonIID s=20261018 DP-FED-SECAGG    eps=2 auc=0.8017 b_rmse=0.5085 rho=0.871
+  SYN-K10-nonIID s=20261018 DP-FED           eps=4 auc=0.7957 b_rmse=0.6215 rho=0.815
+  SYN-K10-nonIID s=20261018 DP-FED-SECAGG    eps=4 auc=0.8055 b_rmse=0.4078 rho=0.924
+  SYN-K10-nonIID s=20261018 DP-FED           eps=8 auc=0.8030 b_rmse=0.4739 rho=0.896
+  SYN-K10-nonIID s=20261018 DP-FED-SECAGG    eps=8 auc=0.8067 b_rmse=0.3643 rho=0.944
+[06:58:57] SYN-K3-IID seed=20261019
+  SYN-K3-IID s=20261019 DP-FED           eps=0.5 auc=0.6629 b_rmse=1.4823 rho=0.212
+  SYN-K3-IID s=20261019 DP-FED-SECAGG    eps=0.5 auc=0.6712 b_rmse=1.3396 rho=0.265
+  SYN-K3-IID s=20261019 DP-FED           eps=1 auc=0.6954 b_rmse=1.1885 rho=0.373
+  SYN-K3-IID s=20261019 DP-FED-SECAGG    eps=1 auc=0.7151 b_rmse=1.0020 rho=0.482
+  SYN-K3-IID s=20261019 DP-FED           eps=2 auc=0.7321 b_rmse=0.8938 rho=0.570
+  SYN-K3-IID s=20261019 DP-FED-SECAGG    eps=2 auc=0.7537 b_rmse=0.7241 rho=0.703
+  SYN-K3-IID s=20261019 DP-FED           eps=4 auc=0.7618 b_rmse=0.6596 rho=0.755
+  SYN-K3-IID s=20261019 DP-FED-SECAGG    eps=4 auc=0.7755 b_rmse=0.5560 rho=0.850
+  SYN-K3-IID s=20261019 DP-FED           eps=8 auc=0.7804 b_rmse=0.5176 rho=0.877
+  SYN-K3-IID s=20261019 DP-FED-SECAGG    eps=8 auc=0.7858 b_rmse=0.4712 rho=0.915
+[06:58:58] SYN-K3-nonIID seed=20261019
+  SYN-K3-nonIID s=20261019 DP-FED           eps=0.5 auc=0.6991 b_rmse=1.4952 rho=0.197
+  SYN-K3-nonIID s=20261019 DP-FED-SECAGG    eps=0.5 auc=0.7221 b_rmse=1.3773 rho=0.237
+  SYN-K3-nonIID s=20261019 DP-FED           eps=1 auc=0.7298 b_rmse=1.2188 rho=0.336
+  SYN-K3-nonIID s=20261019 DP-FED-SECAGG    eps=1 auc=0.7604 b_rmse=1.0522 rho=0.427
+  SYN-K3-nonIID s=20261019 DP-FED           eps=2 auc=0.7647 b_rmse=0.9391 rho=0.518
+  SYN-K3-nonIID s=20261019 DP-FED-SECAGG    eps=2 auc=0.7890 b_rmse=0.7928 rho=0.633
+  SYN-K3-nonIID s=20261019 DP-FED           eps=4 auc=0.7907 b_rmse=0.7280 rho=0.694
+  SYN-K3-nonIID s=20261019 DP-FED-SECAGG    eps=4 auc=0.8037 b_rmse=0.6356 rho=0.782
+  SYN-K3-nonIID s=20261019 DP-FED           eps=8 auc=0.8042 b_rmse=0.6010 rho=0.805
+  SYN-K3-nonIID s=20261019 DP-FED-SECAGG    eps=8 auc=0.8099 b_rmse=0.5585 rho=0.850
+[06:58:58] SYN-K10-IID seed=20261019
+  SYN-K10-IID s=20261019 DP-FED           eps=0.5 auc=0.6632 b_rmse=1.4611 rho=0.285
+  SYN-K10-IID s=20261019 DP-FED-SECAGG    eps=0.5 auc=0.7374 b_rmse=0.7977 rho=0.678
+  SYN-K10-IID s=20261019 DP-FED           eps=1 auc=0.7056 b_rmse=1.1196 rho=0.497
+  SYN-K10-IID s=20261019 DP-FED-SECAGG    eps=1 auc=0.7681 b_rmse=0.5221 rho=0.860
+  SYN-K10-IID s=20261019 DP-FED           eps=2 auc=0.7475 b_rmse=0.7555 rho=0.732
+  SYN-K10-IID s=20261019 DP-FED-SECAGG    eps=2 auc=0.7829 b_rmse=0.3457 rho=0.948
+  SYN-K10-IID s=20261019 DP-FED           eps=4 auc=0.7731 b_rmse=0.4819 rho=0.887
+  SYN-K10-IID s=20261019 DP-FED-SECAGG    eps=4 auc=0.7880 b_rmse=0.2628 rho=0.976
+  SYN-K10-IID s=20261019 DP-FED           eps=8 auc=0.7849 b_rmse=0.3239 rho=0.958
+  SYN-K10-IID s=20261019 DP-FED-SECAGG    eps=8 auc=0.7892 b_rmse=0.2345 rho=0.983
+[06:59:00] SYN-K10-nonIID seed=20261019
+  SYN-K10-nonIID s=20261019 DP-FED           eps=0.5 auc=0.6989 b_rmse=1.4879 rho=0.275
+  SYN-K10-nonIID s=20261019 DP-FED-SECAGG    eps=0.5 auc=0.7623 b_rmse=0.9649 rho=0.569
+  SYN-K10-nonIID s=20261019 DP-FED           eps=1 auc=0.7405 b_rmse=1.2017 rho=0.471
+  SYN-K10-nonIID s=20261019 DP-FED-SECAGG    eps=1 auc=0.7865 b_rmse=0.6999 rho=0.744
+  SYN-K10-nonIID s=20261019 DP-FED           eps=2 auc=0.7726 b_rmse=0.9158 rho=0.661
+  SYN-K10-nonIID s=20261019 DP-FED-SECAGG    eps=2 auc=0.7978 b_rmse=0.5147 rho=0.864
+  SYN-K10-nonIID s=20261019 DP-FED           eps=4 auc=0.7912 b_rmse=0.6691 rho=0.803
+  SYN-K10-nonIID s=20261019 DP-FED-SECAGG    eps=4 auc=0.8012 b_rmse=0.4245 rho=0.914
+  SYN-K10-nonIID s=20261019 DP-FED           eps=8 auc=0.7986 b_rmse=0.5098 rho=0.874
+  SYN-K10-nonIID s=20261019 DP-FED-SECAGG    eps=8 auc=0.8023 b_rmse=0.3854 rho=0.929
+[06:59:06] SYN-K3-IID seed=20261020
+  SYN-K3-IID s=20261020 DP-FED           eps=0.5 auc=0.6567 b_rmse=1.5493 rho=0.212
+  SYN-K3-IID s=20261020 DP-FED-SECAGG    eps=0.5 auc=0.6657 b_rmse=1.3243 rho=0.334
+  SYN-K3-IID s=20261020 DP-FED           eps=1 auc=0.6891 b_rmse=1.2364 rho=0.372
+  SYN-K3-IID s=20261020 DP-FED-SECAGG    eps=1 auc=0.7065 b_rmse=0.9850 rho=0.543
+  SYN-K3-IID s=20261020 DP-FED           eps=2 auc=0.7261 b_rmse=0.9183 rho=0.592
+  SYN-K3-IID s=20261020 DP-FED-SECAGG    eps=2 auc=0.7412 b_rmse=0.7125 rho=0.741
+  SYN-K3-IID s=20261020 DP-FED           eps=4 auc=0.7529 b_rmse=0.6788 rho=0.771
+  SYN-K3-IID s=20261020 DP-FED-SECAGG    eps=4 auc=0.7638 b_rmse=0.5395 rho=0.872
+  SYN-K3-IID s=20261020 DP-FED           eps=8 auc=0.7693 b_rmse=0.5257 rho=0.885
+  SYN-K3-IID s=20261020 DP-FED-SECAGG    eps=8 auc=0.7737 b_rmse=0.4567 rho=0.930
+[06:59:07] SYN-K3-nonIID seed=20261020
+  SYN-K3-nonIID s=20261020 DP-FED           eps=0.5 auc=0.6876 b_rmse=1.5624 rho=0.197
+  SYN-K3-nonIID s=20261020 DP-FED-SECAGG    eps=0.5 auc=0.7203 b_rmse=1.3464 rho=0.306
+  SYN-K3-nonIID s=20261020 DP-FED           eps=1 auc=0.7239 b_rmse=1.2659 rho=0.343
+  SYN-K3-nonIID s=20261020 DP-FED-SECAGG    eps=1 auc=0.7595 b_rmse=1.0305 rho=0.498
+  SYN-K3-nonIID s=20261020 DP-FED           eps=2 auc=0.7636 b_rmse=0.9662 rho=0.540
+  SYN-K3-nonIID s=20261020 DP-FED-SECAGG    eps=2 auc=0.7889 b_rmse=0.7732 rho=0.692
+  SYN-K3-nonIID s=20261020 DP-FED           eps=4 auc=0.7914 b_rmse=0.7454 rho=0.711
+  SYN-K3-nonIID s=20261020 DP-FED-SECAGG    eps=4 auc=0.8050 b_rmse=0.6133 rho=0.820
+  SYN-K3-nonIID s=20261020 DP-FED           eps=8 auc=0.8053 b_rmse=0.6135 rho=0.822
+  SYN-K3-nonIID s=20261020 DP-FED-SECAGG    eps=8 auc=0.8121 b_rmse=0.5381 rho=0.879
+[06:59:08] SYN-K10-IID seed=20261020
+  SYN-K10-IID s=20261020 DP-FED           eps=0.5 auc=0.6736 b_rmse=1.3227 rho=0.344
+  SYN-K10-IID s=20261020 DP-FED-SECAGG    eps=0.5 auc=0.7392 b_rmse=0.7919 rho=0.721
+  SYN-K10-IID s=20261020 DP-FED           eps=1 auc=0.7170 b_rmse=0.9868 rho=0.574
+  SYN-K10-IID s=20261020 DP-FED-SECAGG    eps=1 auc=0.7671 b_rmse=0.5181 rho=0.877
+  SYN-K10-IID s=20261020 DP-FED           eps=2 auc=0.7531 b_rmse=0.6828 rho=0.782
+  SYN-K10-IID s=20261020 DP-FED-SECAGG    eps=2 auc=0.7817 b_rmse=0.3350 rho=0.956
+  SYN-K10-IID s=20261020 DP-FED           eps=4 auc=0.7744 b_rmse=0.4510 rho=0.907
+  SYN-K10-IID s=20261020 DP-FED-SECAGG    eps=4 auc=0.7857 b_rmse=0.2574 rho=0.979
+  SYN-K10-IID s=20261020 DP-FED           eps=8 auc=0.7838 b_rmse=0.3039 rho=0.964
+  SYN-K10-IID s=20261020 DP-FED-SECAGG    eps=8 auc=0.7868 b_rmse=0.2276 rho=0.984
+[06:59:11] SYN-K10-nonIID seed=20261020
+  SYN-K10-nonIID s=20261020 DP-FED           eps=0.5 auc=0.7209 b_rmse=1.3751 rho=0.316
+  SYN-K10-nonIID s=20261020 DP-FED-SECAGG    eps=0.5 auc=0.7761 b_rmse=0.9562 rho=0.616
+  SYN-K10-nonIID s=20261020 DP-FED           eps=1 auc=0.7586 b_rmse=1.0902 rho=0.501
+  SYN-K10-nonIID s=20261020 DP-FED-SECAGG    eps=1 auc=0.7975 b_rmse=0.6901 rho=0.778
+  SYN-K10-nonIID s=20261020 DP-FED           eps=2 auc=0.7860 b_rmse=0.8241 rho=0.675
+  SYN-K10-nonIID s=20261020 DP-FED-SECAGG    eps=2 auc=0.8073 b_rmse=0.5097 rho=0.881
+  SYN-K10-nonIID s=20261020 DP-FED           eps=4 auc=0.8020 b_rmse=0.6129 rho=0.815
+  SYN-K10-nonIID s=20261020 DP-FED-SECAGG    eps=4 auc=0.8109 b_rmse=0.4093 rho=0.930
+  SYN-K10-nonIID s=20261020 DP-FED           eps=8 auc=0.8085 b_rmse=0.4839 rho=0.893
+  SYN-K10-nonIID s=20261020 DP-FED-SECAGG    eps=8 auc=0.8119 b_rmse=0.3725 rho=0.944
+[06:59:17] SYN-K3-IID seed=20261021
+  SYN-K3-IID s=20261021 DP-FED           eps=0.5 auc=0.6300 b_rmse=1.6352 rho=0.114
+  SYN-K3-IID s=20261021 DP-FED-SECAGG    eps=0.5 auc=0.6687 b_rmse=1.3712 rho=0.354
+  SYN-K3-IID s=20261021 DP-FED           eps=1 auc=0.6670 b_rmse=1.3182 rho=0.271
+  SYN-K3-IID s=20261021 DP-FED-SECAGG    eps=1 auc=0.7084 b_rmse=1.0160 rho=0.547
+  SYN-K3-IID s=20261021 DP-FED           eps=2 auc=0.7136 b_rmse=0.9858 rho=0.500
+  SYN-K3-IID s=20261021 DP-FED-SECAGG    eps=2 auc=0.7441 b_rmse=0.7298 rho=0.744
+  SYN-K3-IID s=20261021 DP-FED           eps=4 auc=0.7508 b_rmse=0.7243 rho=0.741
+  SYN-K3-IID s=20261021 DP-FED-SECAGG    eps=4 auc=0.7671 b_rmse=0.5527 rho=0.878
+  SYN-K3-IID s=20261021 DP-FED           eps=8 auc=0.7714 b_rmse=0.5573 rho=0.884
+  SYN-K3-IID s=20261021 DP-FED-SECAGG    eps=8 auc=0.7774 b_rmse=0.4708 rho=0.936
+[06:59:18] SYN-K3-nonIID seed=20261021
+  SYN-K3-nonIID s=20261021 DP-FED           eps=0.5 auc=0.6817 b_rmse=1.6545 rho=0.106
+  SYN-K3-nonIID s=20261021 DP-FED-SECAGG    eps=0.5 auc=0.7192 b_rmse=1.3882 rho=0.334
+  SYN-K3-nonIID s=20261021 DP-FED           eps=1 auc=0.7145 b_rmse=1.3556 rho=0.250
+  SYN-K3-nonIID s=20261021 DP-FED-SECAGG    eps=1 auc=0.7542 b_rmse=1.0526 rho=0.506
+  SYN-K3-nonIID s=20261021 DP-FED           eps=2 auc=0.7515 b_rmse=1.0392 rho=0.453
+  SYN-K3-nonIID s=20261021 DP-FED-SECAGG    eps=2 auc=0.7831 b_rmse=0.7822 rho=0.692
+  SYN-K3-nonIID s=20261021 DP-FED           eps=4 auc=0.7829 b_rmse=0.7851 rho=0.674
+  SYN-K3-nonIID s=20261021 DP-FED-SECAGG    eps=4 auc=0.8004 b_rmse=0.6174 rho=0.825
+  SYN-K3-nonIID s=20261021 DP-FED           eps=8 auc=0.8005 b_rmse=0.6228 rho=0.820
+  SYN-K3-nonIID s=20261021 DP-FED-SECAGG    eps=8 auc=0.8067 b_rmse=0.5421 rho=0.882
+[06:59:18] SYN-K10-IID seed=20261021
+  SYN-K10-IID s=20261021 DP-FED           eps=0.5 auc=0.6565 b_rmse=1.4392 rho=0.217
+  SYN-K10-IID s=20261021 DP-FED-SECAGG    eps=0.5 auc=0.7462 b_rmse=0.8393 rho=0.722
+  SYN-K10-IID s=20261021 DP-FED           eps=1 auc=0.7080 b_rmse=1.0575 rho=0.465
+  SYN-K10-IID s=20261021 DP-FED-SECAGG    eps=1 auc=0.7751 b_rmse=0.5370 rho=0.878
+  SYN-K10-IID s=20261021 DP-FED           eps=2 auc=0.7556 b_rmse=0.7105 rho=0.729
+  SYN-K10-IID s=20261021 DP-FED-SECAGG    eps=2 auc=0.7898 b_rmse=0.3529 rho=0.954
+  SYN-K10-IID s=20261021 DP-FED           eps=4 auc=0.7811 b_rmse=0.4741 rho=0.891
+  SYN-K10-IID s=20261021 DP-FED-SECAGG    eps=4 auc=0.7945 b_rmse=0.2708 rho=0.978
+  SYN-K10-IID s=20261021 DP-FED           eps=8 auc=0.7918 b_rmse=0.3365 rho=0.957
+  SYN-K10-IID s=20261021 DP-FED-SECAGG    eps=8 auc=0.7957 b_rmse=0.2435 rho=0.983
+[06:59:20] SYN-K10-nonIID seed=20261021
+  SYN-K10-nonIID s=20261021 DP-FED           eps=0.5 auc=0.6880 b_rmse=1.4789 rho=0.202
+  SYN-K10-nonIID s=20261021 DP-FED-SECAGG    eps=0.5 auc=0.7721 b_rmse=0.9737 rho=0.649
+  SYN-K10-nonIID s=20261021 DP-FED           eps=1 auc=0.7361 b_rmse=1.1522 rho=0.413
+  SYN-K10-nonIID s=20261021 DP-FED-SECAGG    eps=1 auc=0.7942 b_rmse=0.6790 rho=0.804
+  SYN-K10-nonIID s=20261021 DP-FED           eps=2 auc=0.7750 b_rmse=0.8543 rho=0.640
+  SYN-K10-nonIID s=20261021 DP-FED-SECAGG    eps=2 auc=0.8040 b_rmse=0.4925 rho=0.894
+  SYN-K10-nonIID s=20261021 DP-FED           eps=4 auc=0.7950 b_rmse=0.6309 rho=0.799
+  SYN-K10-nonIID s=20261021 DP-FED-SECAGG    eps=4 auc=0.8071 b_rmse=0.3953 rho=0.938
+  SYN-K10-nonIID s=20261021 DP-FED           eps=8 auc=0.8035 b_rmse=0.4891 rho=0.886
+  SYN-K10-nonIID s=20261021 DP-FED-SECAGG    eps=8 auc=0.8078 b_rmse=0.3614 rho=0.950
+[06:59:26] SYN-K3-IID seed=20261022
+  SYN-K3-IID s=20261022 DP-FED           eps=0.5 auc=0.6289 b_rmse=1.5015 rho=0.141
+  SYN-K3-IID s=20261022 DP-FED-SECAGG    eps=0.5 auc=0.6736 b_rmse=1.3197 rho=0.308
+  SYN-K3-IID s=20261022 DP-FED           eps=1 auc=0.6636 b_rmse=1.1897 rho=0.308
+  SYN-K3-IID s=20261022 DP-FED-SECAGG    eps=1 auc=0.7090 b_rmse=0.9878 rho=0.492
+  SYN-K3-IID s=20261022 DP-FED           eps=2 auc=0.7056 b_rmse=0.8755 rho=0.544
+  SYN-K3-IID s=20261022 DP-FED-SECAGG    eps=2 auc=0.7419 b_rmse=0.7061 rho=0.690
+  SYN-K3-IID s=20261022 DP-FED           eps=4 auc=0.7388 b_rmse=0.6409 rho=0.757
+  SYN-K3-IID s=20261022 DP-FED-SECAGG    eps=4 auc=0.7605 b_rmse=0.5194 rho=0.849
+  SYN-K3-IID s=20261022 DP-FED           eps=8 auc=0.7569 b_rmse=0.4998 rho=0.881
+  SYN-K3-IID s=20261022 DP-FED-SECAGG    eps=8 auc=0.7681 b_rmse=0.4293 rho=0.925
+[06:59:26] SYN-K3-nonIID seed=20261022
+  SYN-K3-nonIID s=20261022 DP-FED           eps=0.5 auc=0.6847 b_rmse=1.5335 rho=0.122
+  SYN-K3-nonIID s=20261022 DP-FED-SECAGG    eps=0.5 auc=0.7018 b_rmse=1.3618 rho=0.266
+  SYN-K3-nonIID s=20261022 DP-FED           eps=1 auc=0.7182 b_rmse=1.2423 rho=0.269
+  SYN-K3-nonIID s=20261022 DP-FED-SECAGG    eps=1 auc=0.7380 b_rmse=1.0502 rho=0.433
+  SYN-K3-nonIID s=20261022 DP-FED           eps=2 auc=0.7544 b_rmse=0.9480 rho=0.480
+  SYN-K3-nonIID s=20261022 DP-FED-SECAGG    eps=2 auc=0.7682 b_rmse=0.7917 rho=0.617
+  SYN-K3-nonIID s=20261022 DP-FED           eps=4 auc=0.7795 b_rmse=0.7267 rho=0.681
+  SYN-K3-nonIID s=20261022 DP-FED-SECAGG    eps=4 auc=0.7878 b_rmse=0.6224 rho=0.759
+  SYN-K3-nonIID s=20261022 DP-FED           eps=8 auc=0.7934 b_rmse=0.5954 rho=0.801
+  SYN-K3-nonIID s=20261022 DP-FED-SECAGG    eps=8 auc=0.7973 b_rmse=0.5399 rho=0.838
+[06:59:27] SYN-K10-IID seed=20261022
+  SYN-K10-IID s=20261022 DP-FED           eps=0.5 auc=0.6619 b_rmse=1.3990 rho=0.333
+  SYN-K10-IID s=20261022 DP-FED-SECAGG    eps=0.5 auc=0.7308 b_rmse=0.8009 rho=0.668
+  SYN-K10-IID s=20261022 DP-FED           eps=1 auc=0.7046 b_rmse=1.0301 rho=0.554
+  SYN-K10-IID s=20261022 DP-FED-SECAGG    eps=1 auc=0.7604 b_rmse=0.5094 rho=0.852
+  SYN-K10-IID s=20261022 DP-FED           eps=2 auc=0.7417 b_rmse=0.6952 rho=0.753
+  SYN-K10-IID s=20261022 DP-FED-SECAGG    eps=2 auc=0.7749 b_rmse=0.3208 rho=0.949
+  SYN-K10-IID s=20261022 DP-FED           eps=4 auc=0.7652 b_rmse=0.4516 rho=0.890
+  SYN-K10-IID s=20261022 DP-FED-SECAGG    eps=4 auc=0.7790 b_rmse=0.2444 rho=0.975
+  SYN-K10-IID s=20261022 DP-FED           eps=8 auc=0.7759 b_rmse=0.3020 rho=0.956
+  SYN-K10-IID s=20261022 DP-FED-SECAGG    eps=8 auc=0.7800 b_rmse=0.2193 rho=0.982
+[06:59:29] SYN-K10-nonIID seed=20261022
+  SYN-K10-nonIID s=20261022 DP-FED           eps=0.5 auc=0.6908 b_rmse=1.5020 rho=0.292
+  SYN-K10-nonIID s=20261022 DP-FED-SECAGG    eps=0.5 auc=0.7571 b_rmse=0.9647 rho=0.575
+  SYN-K10-nonIID s=20261022 DP-FED           eps=1 auc=0.7294 b_rmse=1.1940 rho=0.476
+  SYN-K10-nonIID s=20261022 DP-FED-SECAGG    eps=1 auc=0.7790 b_rmse=0.7123 rho=0.729
+  SYN-K10-nonIID s=20261022 DP-FED           eps=2 auc=0.7633 b_rmse=0.8754 rho=0.667
+  SYN-K10-nonIID s=20261022 DP-FED-SECAGG    eps=2 auc=0.7905 b_rmse=0.5217 rho=0.845
+  SYN-K10-nonIID s=20261022 DP-FED           eps=4 auc=0.7828 b_rmse=0.6358 rho=0.796
+  SYN-K10-nonIID s=20261022 DP-FED-SECAGG    eps=4 auc=0.7949 b_rmse=0.4174 rho=0.906
+  SYN-K10-nonIID s=20261022 DP-FED           eps=8 auc=0.7915 b_rmse=0.4904 rho=0.872
+  SYN-K10-nonIID s=20261022 DP-FED-SECAGG    eps=8 auc=0.7960 b_rmse=0.3753 rho=0.931
+done

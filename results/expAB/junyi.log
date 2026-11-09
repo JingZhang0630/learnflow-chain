@@ -1,0 +1,76 @@
+[07:39:07] Junyi seed=20261018 users=50047 items=1326 orgs=['ntpc', 'tc', 'tp', 'ty', 'kh', 'tn', 'hc', 'ylc', 'km', 'ml']
+  Junyi s=20261018 CEN       auc=0.7508 b_rmse=0.0000 rho=1.000 expert=0.309
+  Junyi s=20261018 LOC       auc=0.7515 b_rmse=0.2699 rho=0.939 expert=0.300
+  Junyi s=20261018 CNT       auc=0.7484 b_rmse=0.2741 rho=0.953 expert=0.267
+  Junyi s=20261018 FED       auc=0.7508 b_rmse=0.0000 rho=1.000 expert=0.309
+  Junyi s=20261018 DP-FED   0.5 auc=0.7288 b_rmse=0.8277 rho=0.634 expert=0.246
+  Junyi s=20261018 DP-CNT   0.5 auc=0.6791 b_rmse=1.0267 rho=0.417 expert=0.144
+  Junyi s=20261018 DP-FED   1 auc=0.7415 b_rmse=0.5868 rho=0.794 expert=0.289
+  Junyi s=20261018 DP-CNT   1 auc=0.7027 b_rmse=0.8918 rho=0.527 expert=0.187
+  Junyi s=20261018 DP-FED   2 auc=0.7468 b_rmse=0.4054 rho=0.890 expert=0.321
+  Junyi s=20261018 DP-CNT   2 auc=0.7237 b_rmse=0.7528 rho=0.622 expert=0.237
+  Junyi s=20261018 DP-FED   4 auc=0.7489 b_rmse=0.2862 rho=0.941 expert=0.339
+  Junyi s=20261018 DP-CNT   4 auc=0.7377 b_rmse=0.6043 rho=0.735 expert=0.272
+  Junyi s=20261018 DP-FED   8 auc=0.7496 b_rmse=0.2324 rho=0.961 expert=0.350
+  Junyi s=20261018 DP-CNT   8 auc=0.7442 b_rmse=0.4766 rho=0.824 expert=0.290
+[08:23:50] Junyi seed=20261019 users=50047 items=1326 orgs=['ntpc', 'tc', 'tp', 'ty', 'kh', 'tn', 'hc', 'ylc', 'km', 'ml']
+  Junyi s=20261019 CEN       auc=0.7510 b_rmse=0.0000 rho=1.000 expert=0.308
+  Junyi s=20261019 LOC       auc=0.7515 b_rmse=0.2705 rho=0.938 expert=0.300
+  Junyi s=20261019 CNT       auc=0.7484 b_rmse=0.2710 rho=0.953 expert=0.266
+  Junyi s=20261019 FED       auc=0.7510 b_rmse=0.0000 rho=1.000 expert=0.308
+  Junyi s=20261019 DP-FED   0.5 auc=0.7279 b_rmse=0.8254 rho=0.613 expert=0.253
+  Junyi s=20261019 DP-CNT   0.5 auc=0.6846 b_rmse=1.0069 rho=0.428 expert=0.138
+  Junyi s=20261019 DP-FED   1 auc=0.7409 b_rmse=0.5766 rho=0.785 expert=0.298
+  Junyi s=20261019 DP-CNT   1 auc=0.7062 b_rmse=0.8979 rho=0.545 expert=0.178
+  Junyi s=20261019 DP-FED   2 auc=0.7467 b_rmse=0.3881 rho=0.895 expert=0.314
+  Junyi s=20261019 DP-CNT   2 auc=0.7251 b_rmse=0.7491 rho=0.651 expert=0.224
+  Junyi s=20261019 DP-FED   4 auc=0.7489 b_rmse=0.2727 rho=0.946 expert=0.337
+  Junyi s=20261019 DP-CNT   4 auc=0.7380 b_rmse=0.6099 rho=0.752 expert=0.257
+  Junyi s=20261019 DP-FED   8 auc=0.7496 b_rmse=0.2228 rho=0.964 expert=0.351
+  Junyi s=20261019 DP-CNT   8 auc=0.7442 b_rmse=0.4919 rho=0.830 expert=0.273
+[08:59:33] Junyi seed=20261020 users=50047 items=1326 orgs=['ntpc', 'tc', 'tp', 'ty', 'kh', 'tn', 'hc', 'ylc', 'km', 'ml']
+  Junyi s=20261020 CEN       auc=0.7503 b_rmse=0.0000 rho=1.000 expert=0.308
+  Junyi s=20261020 LOC       auc=0.7508 b_rmse=0.2715 rho=0.937 expert=0.301
+  Junyi s=20261020 CNT       auc=0.7478 b_rmse=0.2714 rho=0.953 expert=0.265
+  Junyi s=20261020 FED       auc=0.7503 b_rmse=0.0000 rho=1.000 expert=0.308
+  Junyi s=20261020 DP-FED   0.5 auc=0.7288 b_rmse=0.7841 rho=0.646 expert=0.303
+  Junyi s=20261020 DP-CNT   0.5 auc=0.6830 b_rmse=1.0490 rho=0.418 expert=0.157
+  Junyi s=20261020 DP-FED   1 auc=0.7407 b_rmse=0.5607 rho=0.801 expert=0.334
+  Junyi s=20261020 DP-CNT   1 auc=0.7029 b_rmse=0.9397 rho=0.524 expert=0.181
+  Junyi s=20261020 DP-FED   2 auc=0.7460 b_rmse=0.3845 rho=0.901 expert=0.342
+  Junyi s=20261020 DP-CNT   2 auc=0.7245 b_rmse=0.7673 rho=0.643 expert=0.220
+  Junyi s=20261020 DP-FED   4 auc=0.7482 b_rmse=0.2766 rho=0.948 expert=0.350
+  Junyi s=20261020 DP-CNT   4 auc=0.7381 b_rmse=0.5996 rho=0.749 expert=0.251
+  Junyi s=20261020 DP-FED   8 auc=0.7490 b_rmse=0.2231 rho=0.964 expert=0.356
+  Junyi s=20261020 DP-CNT   8 auc=0.7440 b_rmse=0.4824 rho=0.833 expert=0.265
+[09:35:36] Junyi seed=20261021 users=50047 items=1326 orgs=['ntpc', 'tc', 'tp', 'ty', 'kh', 'tn', 'hc', 'ylc', 'km', 'ml']
+  Junyi s=20261021 CEN       auc=0.7508 b_rmse=0.0000 rho=1.000 expert=0.307
+  Junyi s=20261021 LOC       auc=0.7514 b_rmse=0.2696 rho=0.939 expert=0.298
+  Junyi s=20261021 CNT       auc=0.7482 b_rmse=0.2704 rho=0.953 expert=0.263
+  Junyi s=20261021 FED       auc=0.7508 b_rmse=0.0000 rho=1.000 expert=0.307
+  Junyi s=20261021 DP-FED   0.5 auc=0.7280 b_rmse=0.8043 rho=0.606 expert=0.262
+  Junyi s=20261021 DP-CNT   0.5 auc=0.6797 b_rmse=1.0351 rho=0.375 expert=0.142
+  Junyi s=20261021 DP-FED   1 auc=0.7407 b_rmse=0.5674 rho=0.772 expert=0.304
+  Junyi s=20261021 DP-CNT   1 auc=0.7055 b_rmse=0.8947 rho=0.508 expert=0.196
+  Junyi s=20261021 DP-FED   2 auc=0.7466 b_rmse=0.3865 rho=0.884 expert=0.325
+  Junyi s=20261021 DP-CNT   2 auc=0.7262 b_rmse=0.7498 rho=0.626 expert=0.231
+  Junyi s=20261021 DP-FED   4 auc=0.7487 b_rmse=0.2809 rho=0.940 expert=0.343
+  Junyi s=20261021 DP-CNT   4 auc=0.7386 b_rmse=0.5993 rho=0.737 expert=0.255
+  Junyi s=20261021 DP-FED   8 auc=0.7494 b_rmse=0.2347 rho=0.959 expert=0.354
+  Junyi s=20261021 DP-CNT   8 auc=0.7442 b_rmse=0.4804 rho=0.826 expert=0.267
+[10:10:51] Junyi seed=20261022 users=50047 items=1326 orgs=['ntpc', 'tc', 'tp', 'ty', 'kh', 'tn', 'hc', 'ylc', 'km', 'ml']
+  Junyi s=20261022 CEN       auc=0.7508 b_rmse=0.0000 rho=1.000 expert=0.310
+  Junyi s=20261022 LOC       auc=0.7513 b_rmse=0.2710 rho=0.938 expert=0.301
+  Junyi s=20261022 CNT       auc=0.7482 b_rmse=0.2711 rho=0.954 expert=0.268
+  Junyi s=20261022 FED       auc=0.7508 b_rmse=0.0000 rho=1.000 expert=0.310
+  Junyi s=20261022 DP-FED   0.5 auc=0.7264 b_rmse=0.8168 rho=0.607 expert=0.249
+  Junyi s=20261022 DP-CNT   0.5 auc=0.6841 b_rmse=1.0208 rho=0.408 expert=0.150
+  Junyi s=20261022 DP-FED   1 auc=0.7399 b_rmse=0.5758 rho=0.779 expert=0.301
+  Junyi s=20261022 DP-CNT   1 auc=0.7044 b_rmse=0.9095 rho=0.520 expert=0.189
+  Junyi s=20261022 DP-FED   2 auc=0.7462 b_rmse=0.3979 rho=0.893 expert=0.328
+  Junyi s=20261022 DP-CNT   2 auc=0.7238 b_rmse=0.7960 rho=0.612 expert=0.227
+  Junyi s=20261022 DP-FED   4 auc=0.7487 b_rmse=0.2872 rho=0.944 expert=0.342
+  Junyi s=20261022 DP-CNT   4 auc=0.7375 b_rmse=0.6356 rho=0.721 expert=0.262
+  Junyi s=20261022 DP-FED   8 auc=0.7494 b_rmse=0.2381 rho=0.960 expert=0.352
+  Junyi s=20261022 DP-CNT   8 auc=0.7440 b_rmse=0.4960 rho=0.817 expert=0.283
+done

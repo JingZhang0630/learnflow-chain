@@ -1,0 +1,41 @@
+[08:11:29] Junyi seed=20261018
+  clip rates: {"dataset": "Junyi", "n_users": 50047, "count_clip_fraction": {"2.0": 1.0, "4.0": 0.9995404319939257, "8.0": 0.9658121365916039}, "grad_clip_fraction": {"0.25": 0.98813115671269, "0.5": 0.9541630866985034, "1.0": 0.8498211681019842, "2.0": 0.6568825304214039}}
+  Junyi s=20261018 C=0.25 Cn=2.0 clip=0.989 auc=0.7468 rmse=0.3928
+  Junyi s=20261018 C=0.25 Cn=4.0 clip=0.990 auc=0.7460 rmse=0.4064
+  Junyi s=20261018 C=0.25 Cn=8.0 clip=0.990 auc=0.7380 rmse=0.5016
+  Junyi s=20261018 C=0.5 Cn=2.0 clip=0.956 auc=0.7460 rmse=0.4224
+  Junyi s=20261018 C=0.5 Cn=4.0 clip=0.958 auc=0.7468 rmse=0.4054
+  Junyi s=20261018 C=0.5 Cn=8.0 clip=0.960 auc=0.7459 rmse=0.4188
+  Junyi s=20261018 C=1.0 Cn=2.0 clip=0.853 auc=0.7441 rmse=0.4642
+  Junyi s=20261018 C=1.0 Cn=4.0 clip=0.854 auc=0.7459 rmse=0.4341
+  Junyi s=20261018 C=1.0 Cn=8.0 clip=0.857 auc=0.7468 rmse=0.4155
+  Junyi s=20261018 C=2.0 Cn=2.0 clip=0.667 auc=0.7397 rmse=0.5152
+  Junyi s=20261018 C=2.0 Cn=4.0 clip=0.663 auc=0.7440 rmse=0.4717
+  Junyi s=20261018 C=2.0 Cn=8.0 clip=0.664 auc=0.7459 rmse=0.4400
+[08:17:41] Junyi seed=20261019
+  Junyi s=20261019 C=0.25 Cn=2.0 clip=0.989 auc=0.7468 rmse=0.3746
+  Junyi s=20261019 C=0.25 Cn=4.0 clip=0.990 auc=0.7459 rmse=0.3991
+  Junyi s=20261019 C=0.25 Cn=8.0 clip=0.991 auc=0.7385 rmse=0.5030
+  Junyi s=20261019 C=0.5 Cn=2.0 clip=0.955 auc=0.7459 rmse=0.4009
+  Junyi s=20261019 C=0.5 Cn=4.0 clip=0.957 auc=0.7467 rmse=0.3881
+  Junyi s=20261019 C=0.5 Cn=8.0 clip=0.959 auc=0.7458 rmse=0.4136
+  Junyi s=20261019 C=1.0 Cn=2.0 clip=0.853 auc=0.7440 rmse=0.4457
+  Junyi s=20261019 C=1.0 Cn=4.0 clip=0.854 auc=0.7458 rmse=0.4146
+  Junyi s=20261019 C=1.0 Cn=8.0 clip=0.856 auc=0.7466 rmse=0.4007
+  Junyi s=20261019 C=2.0 Cn=2.0 clip=0.667 auc=0.7394 rmse=0.5000
+  Junyi s=20261019 C=2.0 Cn=4.0 clip=0.663 auc=0.7440 rmse=0.4545
+  Junyi s=20261019 C=2.0 Cn=8.0 clip=0.664 auc=0.7458 rmse=0.4225
+[08:23:54] Junyi seed=20261020
+  Junyi s=20261020 C=0.25 Cn=2.0 clip=0.988 auc=0.7461 rmse=0.3717
+  Junyi s=20261020 C=0.25 Cn=4.0 clip=0.989 auc=0.7452 rmse=0.4074
+  Junyi s=20261020 C=0.25 Cn=8.0 clip=0.990 auc=0.7377 rmse=0.5250
+  Junyi s=20261020 C=0.5 Cn=2.0 clip=0.954 auc=0.7453 rmse=0.3915
+  Junyi s=20261020 C=0.5 Cn=4.0 clip=0.955 auc=0.7460 rmse=0.3845
+  Junyi s=20261020 C=0.5 Cn=8.0 clip=0.957 auc=0.7451 rmse=0.4209
+  Junyi s=20261020 C=1.0 Cn=2.0 clip=0.852 auc=0.7435 rmse=0.4318
+  Junyi s=20261020 C=1.0 Cn=4.0 clip=0.853 auc=0.7452 rmse=0.4037
+  Junyi s=20261020 C=1.0 Cn=8.0 clip=0.855 auc=0.7460 rmse=0.3954
+  Junyi s=20261020 C=2.0 Cn=2.0 clip=0.667 auc=0.7388 rmse=0.4881
+  Junyi s=20261020 C=2.0 Cn=4.0 clip=0.663 auc=0.7434 rmse=0.4399
+  Junyi s=20261020 C=2.0 Cn=8.0 clip=0.663 auc=0.7452 rmse=0.4103
+done

@@ -1,0 +1,19 @@
+{
+  "selection_data": "SYN-K10-nonIID seed 20261018",
+  "criterion": "lowest b-RMSE at eps=2 (DP-FED)",
+  "FED": {
+    "local_steps": 1,
+    "max_rounds": 500,
+    "tol": 1e-06,
+    "damping": 1.0
+  },
+  "DP-FED": {
+    "rounds": 10,
+    "clip": 0.5,
+    "clip_count": 4,
+    "lr": 0.5,
+    "local_steps": 1
+  },
+  "lambda": 1.0,
+  "delta": 1e-05
+}

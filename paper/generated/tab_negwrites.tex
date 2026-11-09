@@ -1,0 +1,24 @@
+\begin{widetable}
+\centering
+\caption{Write-side negative tests on Fabric: each forbidden ledger write and the chaincode error observed.}
+\label{tab:negwrites}
+\small
+\begin{tabular}{p{0.5\textwidth}p{0.3\textwidth}c}
+\toprule
+Attempted write & Observed error & Rejected \\
+\midrule
+Dataset version registered by another member (A7) & \texttt{CALLER\_NOT\_INSTITUTION} & yes \\
+Duplicate dataset version (A6) & \texttt{DATASET\_VERSION\_EXISTS} & yes \\
+Grant revoked by another member (A7) & \texttt{CALLER\_NOT\_INSTITUTION} & yes \\
+Grant issued for another member's institution (A7) & \texttt{CALLER\_NOT\_INSTITUTION} & yes \\
+Second revocation of a grant & \texttt{ALREADY\_REVOKED} & yes \\
+Replayed grant identifier (A6) & \texttt{GRANT\_EXISTS} & yes \\
+Illegal task transition completed$\to$running & \texttt{ILLEGAL\_TRANSITION} & yes \\
+New task created outside draft & \texttt{NEW\_TASK\_MUST\_BE\_DRAFT} & yes \\
+Calibration recorded for an unfinished task & \texttt{TASK\_NOT\_COMPLETED} & yes \\
+Malformed digest & \texttt{BAD\_DIGEST} & yes \\
+Round admission requested for another member's institution (A7) & \texttt{CALLER\_NOT\_INSTITUTION} & yes \\
+Replayed anchor identifier (A6) & \texttt{ANCHOR\_EXISTS} & yes \\
+\bottomrule
+\end{tabular}
+\end{widetable}

@@ -1,0 +1,34 @@
+% Architecture figure (TikZ), included from sections/04_design.tex.
+\begin{tikzpicture}[
+  font=\footnotesize, >=Stealth,
+  box/.style={draw, rounded corners=2pt, align=center, inner sep=3pt, minimum height=1.0cm, text width=3.5cm, execute at begin node={\hyphenpenalty=10000\relax}},
+  inst/.style={box, fill=blue!6},
+  chain/.style={box, fill=orange!12},
+  coord/.style={box, fill=green!8},
+  off/.style={box, fill=gray!10},
+  lab/.style={font=\small, align=center, fill=white, inner sep=1pt}
+]
+\node[inst] (i1) at (0,2.6) {\textbf{Institution 1}\\local event store\\governance service + PDP\\client: clip + noise};
+\node[inst] (i2) at (0,0.8) {\textbf{Institution 2}\\(same components)};
+\node[inst] (ik) at (0,-0.9) {\textbf{Institution $K$}\\(same components)};
+\node[coord] (co) at (5.6,0.8) {\textbf{Federated coordinator}\\broadcasts $b$, sums $\tilde G^{(k)}$\\per-round gate (PDP)};
+\node[chain] (lg) at (11.2,0.8) {\textbf{Permissioned ledger}\\Hyperledger Fabric\\tasks, grants, states,\\Merkle roots, digests\\\texttt{AdmitRound} chaincode};
+\node[off] (oc) at (5.6,-2.0) {\textbf{Off-chain artefacts}\\manifest leaves, proofs,\\result files, budget ledger};
+\node[off] (au) at (11.2,-2.0) {\textbf{Auditor}\\recomputes digest + proof,\\compares with anchored root};
+
+% institutions -> coordinator
+\draw[->] ([yshift=-3mm]i1.east) -- (co.west);
+\draw[->] (i2.east) -- node[lab, below=1pt, pos=0.45] {noisy $\tilde G^{(k)}$} (co.west);
+\draw[->] (ik.east) -- (co.west);
+% broadcast b
+\draw[->, dashed] (co.north) |- node[lab, pos=0.75, above] {difficulties $b$} ([yshift=3mm]i1.east);
+% institutions <-> ledger (over the top)
+\draw[<->] (i1.north) -- ++(0,0.45) -| node[lab, pos=0.25, above] {register dataset root, grant / revoke, endorsed \texttt{AdmitRound}} (lg.north);
+% coordinator <-> ledger
+\draw[<->] (co.east) -- node[lab, below=1pt] {endorsed\\admission,\\task states} (lg.west);
+% artefacts and audit
+\draw[->] (co.south) -- node[lab, right=1pt] {result file} (oc.north);
+\draw[->] (oc.east) -- node[lab, above=1pt] {leaf + proof} (au.west);
+\draw[->] (lg.south) -- node[lab, right=1pt] {root, receipt} (au.north);
+\node[font=\scriptsize\itshape, align=center] at (0,-2.0) {raw events and abilities\\never leave the institution};
+\end{tikzpicture}
