@@ -1,5 +1,7 @@
 # LearnFlow-Chain
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24097495.svg)](https://doi.org/10.5281/zenodo.24097495)
+
 Reference implementation accompanying the manuscript *LearnFlow-Chain: Task-Bound Purpose
 Enforcement and Ledger-Anchored Provenance for Privacy-Preserving Cross-Institution Item
 Calibration* (submitted to *Cluster Computing*).
@@ -64,5 +66,12 @@ this public copy.
 
 ## License and citation
 
-Apache License 2.0 (`LICENSE`). Citation metadata is in `CITATION.cff`; the archived,
-version-pinned release should be cited via its Zenodo DOI once minted.
+Apache License 2.0 (`LICENSE`). Citation metadata is in `CITATION.cff`. Please cite the
+**version-pinned Zenodo archive** (not the Git repository):
+
+> Zhang, J., Weng, Z., Kim, J.-W. (2026). LearnFlow-Chain: reference implementation of
+> privacy-preserving cross-institution item calibration (Version 1.0.0) [Computer software].
+> Zenodo. https://doi.org/10.5281/zenodo.24097495
+
+The concept DOI `10.5281/zenodo.24097494` always resolves to the latest version and must not be
+used in a paper; use the version DOI above to pin v1.0.0.

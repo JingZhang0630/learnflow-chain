@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this software, please cite both the article and this archived version."
 title: "LearnFlow-Chain: reference implementation of privacy-preserving cross-institution item calibration"
 version: 1.0.0
-date-released: 2026-11-09
+date-released: 2026-11-10
 type: software
 authors:
   - family-names: Zhang
@@ -18,5 +18,5 @@ authors:
     affiliation: Youngsan University
 license: Apache-2.0
 repository-code: "https://github.com/JingZhang0630/monet-submission"
-# Add the Zenodo VERSION DOI (not the concept DOI) below once minted:
-# doi: 10.5281/zenodo.XXXXXXX
+doi: 10.5281/zenodo.24097495
+url: "https://doi.org/10.5281/zenodo.24097495"
