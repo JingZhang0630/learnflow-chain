@@ -25,7 +25,7 @@ digests, states and Merkle roots.
 | `paper/generated/` | Auto-generated LaTeX macros and tables. |
 | `paper/figures/architecture.tex` | Editable TikZ source of the architecture figure. |
 | `docs/` | Experiment protocol frozen before the runs, and the recorded deviations from it. |
-| `monet.tex`, `references.bib`, `figures/` | Manuscript sources (Springer Nature `sn-jnl`, MathPhys numbered style). |
+| `learnflow-chain.tex`, `references.bib`, `figures/` | Manuscript sources (Springer Nature `sn-jnl`, MathPhys numbered style). |
 
 ## Reproducing the reported results
 
@@ -45,7 +45,7 @@ records the frozen protocol, dataset splits, hyper-parameters and hardware envir
 To rebuild the manuscript:
 
 ```bash
-pdflatex monet && bibtex monet && pdflatex monet && pdflatex monet
+pdflatex learnflow-chain && bibtex learnflow-chain && pdflatex learnflow-chain && pdflatex learnflow-chain
 ```
 
 ## Data
@@ -60,7 +60,7 @@ and digests only; no learning records are written to the ledger.
 
 ## Manuscript note
 
-`monet.tex` is a de-identified copy of the submitted source: corresponding-author telephone
+`learnflow-chain.tex` is a de-identified copy of the submitted source: corresponding-author telephone
 and fax numbers are supplied to the editorial system only and are intentionally omitted from
 this public copy.
 

@@ -14,7 +14,7 @@
 
 \theoremstyle{thmstyleone}
 \newtheorem{theorem}{Theorem}
-\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{proposition}{Proposition}
 \newenvironment{widetable}{\begin{table*}[t]}{\end{table*}}
 \newenvironment{widefigure}{\begin{figure*}[t]}{\end{figure*}}
 
@@ -342,7 +342,7 @@
 \newcommand{\FabricMaxMsg}{10}
 \newcommand{\FabricVersion}{2.5.14}
 \newcommand{\FedMaxDiff}{$8.0\times10^{-15}$}
-\newcommand{\GJunyiFedLocDiff}{-0.0005}
+\newcommand{\GJunyiFedLocDiff}{$-0.0005$}
 \newcommand{\GJunyiFedLocP}{0.0625}
 \newcommand{\GJunyiFedLocSd}{7.1\times10^{-5}}
 \newcommand{\GLooCities}{10}
@@ -353,9 +353,9 @@
 \newcommand{\GLooFedCntLo}{+0.0021}
 \newcommand{\GLooFedCntP}{0.0020}
 \newcommand{\GLooFedCntWins}{10}
-\newcommand{\GLooFedLocDiff}{-0.0014}
-\newcommand{\GLooFedLocHi}{-0.0007}
-\newcommand{\GLooFedLocLo}{-0.0023}
+\newcommand{\GLooFedLocDiff}{0.0014}
+\newcommand{\GLooFedLocHi}{$-0.0007$}
+\newcommand{\GLooFedLocLo}{$-0.0023$}
 \newcommand{\GLooFedLocP}{0.0020}
 \newcommand{\GLooFedLocWins}{0}
 \newcommand{\GLooFedRoundsMax}{225}
@@ -693,12 +693,13 @@
 
 \author[1]{\fnm{Jing} \sur{Zhang}}\email{zhangjing@office.ysu.ac.kr}
 \author[1]{\fnm{Zexiao} \sur{Weng}}\email{wengzexiao@office.ysu.ac.kr}
-\author*[1]{\fnm{Jin-whan} \sur{Kim}}\email{kjw@ysu.ac.kr}
+\author*[2]{\fnm{Jin-whan} \sur{Kim}}\email{kjw@ysu.ac.kr}
 
-\affil*[1]{\orgname{Youngsan University}, \orgaddress{\street{288 Junam-ro (Junam-dong)}, \city{Yangsan-si}, \state{Gyeongsangnam-do}, \postcode{50510}, \country{Republic of Korea}}. Corresponding author: Jin-whan Kim. ORCID: 0009-0000-4828-2869 (J. Zhang); 0009-0009-8600-8954 (Z. Weng)}
+\affil[1]{\orgdiv{Department of Computer Science and Technology, Graduate School}, \orgname{Youngsan University}, \orgaddress{\street{288 Junam-ro}, \city{Yangsan-si}, \state{Gyeongsangnam-do}, \postcode{50510}, \country{Republic of Korea}}}
+\affil[2]{\orgdiv{Department of Computer Engineering}, \orgname{Youngsan University}, \orgaddress{\street{288 Junam-ro}, \city{Yangsan-si}, \state{Gyeongsangnam-do}, \postcode{50510}, \country{Republic of Korea}}}
 
 
-\abstract{Cross-institution item calibration needs more students per item than one institution has, but learning logs describe identifiable learners, so the joint computation must be bound to a declared purpose, admit only authorised participants and leave a verifiable record. We present LearnFlow-Chain, a privacy-preserving calibration system on a permissioned distributed ledger. Raw events and abilities stay at each institution; every federated round is admitted by an endorsed, purpose- and task-bound predicate; lineage is anchored as digests and Merkle roots. Student-level differential privacy is added by each institution, without a trusted aggregator, and tasks exceeding the budget are refused. On Hyperledger Fabric, a revoked institution was excluded from the next round and an auditor reproduced 1,049 admission decisions. On two public logs, $\varepsilon=2$ cost little accuracy with 50,047 students but much with 2,010; removing the trusted aggregator multiplied difficulty error by 1.1--1.9; Merkle batching raised anchoring throughput to 77,494 records per second.}
+\abstract{Cross-institution item calibration needs more students per item than one institution has, but learning logs identify learners, so the computation must be purpose-bound, admit only authorised participants and leave a verifiable record. We present LearnFlow-Chain, a privacy-preserving calibration system on a permissioned ledger. Raw events and abilities stay local; each round is admitted by an endorsed, purpose- and task-bound predicate, and lineage is anchored as Merkle roots. Each institution adds student-level differential privacy under a privacy budget $\varepsilon$, with no trusted aggregator, and refuses tasks exceeding that budget. On Hyperledger Fabric, revoking an institution excluded it from the next round and an auditor reproduced 1,049 admission decisions. At $\varepsilon=2$, accuracy fell little with 50,047 students but sharply with 2,010; dropping the trusted aggregator multiplied difficulty error by 1.1--1.9; Merkle batching raised anchoring throughput to 77,494 records per second.}
 
 \keywords{Distributed ledger technology, Purpose-based access control, Differential privacy, Federated learning, Hyperledger Fabric, Data provenance}
 
@@ -722,7 +723,7 @@ LearnFlow-Chain addresses them as follows; our contributions are:
 
 \section{Related work}\label{sec:related}
 
-\textbf{Ledgers for access control and records.} MedRec~\cite{azaria2016medrec} and Ancile~\cite{dagher2018ancile} manage permissions to medical records with smart contracts, EduCTX~\cite{turkanovic2018eductx} records academic credit,, with further educational uses reviewed in~\cite{alammary2019blockchain}. FairAccess~\cite{ouaddah2016fairaccess} manages authorisation for constrained devices through transactions, and Di Francesco Maesa et al.~\cite{difrancescomaesa2019blockchain} encode attribute-based policies as smart contracts. Purpose-based access control~\cite{byun2008purpose} builds on role- and attribute-based models~\cite{sandhu1996role,hu2014guide}. We combine the three with a task state machine and re-evaluate the decision before every round of a computation.
+\textbf{Ledgers for access control and records.} MedRec~\cite{azaria2016medrec} and Ancile~\cite{dagher2018ancile} manage permissions to medical records with smart contracts, EduCTX~\cite{turkanovic2018eductx} records academic credit, with further educational uses reviewed in~\cite{alammary2019blockchain}. FairAccess~\cite{ouaddah2016fairaccess} manages authorisation for constrained devices through transactions, and Di Francesco Maesa et al.~\cite{difrancescomaesa2019blockchain} encode attribute-based policies as smart contracts. Purpose-based access control~\cite{byun2008purpose} builds on role- and attribute-based models~\cite{sandhu1996role,hu2014guide}. We combine the three with a task state machine and re-evaluate the decision before every round of a computation.
 
 \textbf{Ledgers and federated learning; provenance.} BlockFL~\cite{kim2020blockchained} and Biscotti~\cite{shayan2021biscotti} exchange or verify model updates through a ledger; ProvChain~\cite{liang2017provchain} embeds provenance records in transactions. Fabric throughput depends strongly on configuration and transaction count~\cite{thakkar2018performance,gorenflo2019fastfabric}, so we keep learning state off chain and anchor only digests under Merkle roots~\cite{merkle1988digital,laurie2013certificate}.
 
@@ -970,7 +971,7 @@ DP-FED RMSE, uninterrupted $\to$ revoked & \EtoeExampleDpBefore{} $\to$ \EtoeExa
 \end{tabular}
 \end{table}
 
-\textbf{End-to-end revocation (C2-E2E).} We ran DP-FED (non-IID synthetic data, $K=10$, $\varepsilon=2$) on the deployed network with every round gated by concurrent \texttt{AdmitRound} transactions, revoking one grant before round \EtoeRevokeRounds{} in \EtoeRuns{} runs. In every run the institution was excluded from the first round after the commit (Table~\ref{tab:etoe}); commits took \EtoeCommitMean{}~s on average. When the revocation was submitted concurrently with the admissions of round \EtoeRaceRound{}, the institution's admission \EtoeRaceReason{} and it was excluded from that round. An auditor using only the anchored admission logs and the ledger verified \EtoeAuditProofs{} of \EtoeAuditRecords{} records, found all transactions valid with matching block and time, and reproduced \EtoeAuditDecisions{} decisions by evaluating Eq.~\eqref{eq:predicate} at the logged times. Earlier releases stay in the estimate, so the result changes little; the DP-FED pair also differs in noise. Gating costs latency rather than throughput: a gate took \EtoeGateBefore{}~s while ten admissions filled a block and \EtoeGateAfter{}~s afterwards, adding \EtoeGateTotal{}~s per task against \EtoeOffline{}~s of computation; with $K=3$ every gate waited for the batch timeout (\EtoeThreeGate{}~s). Proposals with forged timestamps were evaluated at the forged time up to $\pm\TsAcceptedMax$~s and refused from $\pm\TsRejectedMin$~s on.
+\textbf{End-to-end revocation (C2-E2E).} We ran DP-FED (non-IID synthetic data, $K=10$, $\varepsilon=2$) and, as a non-private control, FED with identical settings on the same deployed network; both rows of Table~\ref{tab:etoe} come from these runs, with every round gated by concurrent \texttt{AdmitRound} transactions. We revoked one grant before round \EtoeRevokeRounds{} in \EtoeRuns{} runs. In every run the institution was excluded from the first round after the commit (Table~\ref{tab:etoe}); commits took \EtoeCommitMean{}~s on average. When the revocation was submitted concurrently with the admissions of round \EtoeRaceRound{}, the institution's admission \EtoeRaceReason{} and it was excluded from that round. An auditor using only the anchored admission logs and the ledger verified \EtoeAuditProofs{} of \EtoeAuditRecords{} records, found all transactions valid with matching block and time, and reproduced \EtoeAuditDecisions{} decisions by evaluating Eq.~\eqref{eq:predicate} at the logged times. Earlier releases stay in the estimate, so the result changes little; the DP-FED pair also differs in noise. Gating costs latency rather than throughput: a gate took \EtoeGateBefore{}~s while ten admissions filled a block and \EtoeGateAfter{}~s afterwards, adding \EtoeGateTotal{}~s per task against \EtoeOffline{}~s of computation; with $K=3$ every gate waited for the batch timeout (\EtoeThreeGate{}~s). Proposals with forged timestamps were evaluated at the forged time up to $\pm\TsAcceptedMax$~s and refused from $\pm\TsRejectedMin$~s on.
 
 \textbf{Tamper detection (C3).} All \CThreeClean{} anchored artefacts verified, and all \CThreeDetected{} copies with one flipped bit failed.
 
@@ -993,7 +994,7 @@ The ledger provides governance, not calibration: a shared record of grants, stat
 
 LearnFlow-Chain treats cross-institution calibration as a governed computation: data and abilities stay local, every round is admitted by an endorsed, purpose- and task-bound predicate that a policy engine and chaincode evaluate identically, and the lineage of every published difficulty is anchored as digests. Exact federated calibration matters most when institutions differ, student-level privacy is affordable at large scale only, and on a deployed network a revoked institution was excluded from the next round and every admission decision could be replayed from the ledger. Secure aggregation, certificate-based attributes and deployment across independent operators are the next steps.
 
-\section*{Declarations}
+\section*{Statements and Declarations}
 
 \textbf{Funding.} The authors declare that no funds, grants, or other support were received during the
 preparation of this manuscript.
@@ -1016,13 +1017,13 @@ re-identification was attempted. The synthetic data describe no real persons.
 \textbf{Data availability.} ASSISTments 2009--2010~\cite{feng2009addressing} and the Junyi Academy
 log~\cite{junyi2020dataset} are publicly available from their providers and are not redistributed.
 
-\textbf{Code availability.} The reference implementation accompanying this article, including the policy engine, differential-privacy budget ledger, calibration and dataset builders, the Hyperledger Fabric chaincode and gateway, all experiment scripts and the raw result files, is archived under the Apache License 2.0 at \url{https://doi.org/10.5281/zenodo.24097495}~\cite{zhang2026learnflowchain}. The development repository is at \url{https://github.com/JingZhang0630/monet-submission}. The external learning-log datasets are not redistributed; the README in the archive explains how to obtain them.
+\textbf{Code availability.} The reference implementation accompanying this article, including the policy engine, differential-privacy budget ledger, calibration and dataset builders, the Hyperledger Fabric chaincode and gateway, all experiment scripts and the raw result files, is archived under the Apache License 2.0 at \url{https://doi.org/10.5281/zenodo.24097495}~\cite{zhang2026learnflowchain}. The development repository is at \url{https://github.com/JingZhang0630/learnflow-chain}. The external learning-log datasets are not redistributed; the README in the archive explains how to obtain them.
 
 \textbf{Use of AI tools.} During the preparation of this manuscript, the authors used
 Claude Opus 5.5 in a strictly assistive capacity, limited to:
 (i) language polishing of author-written text, including grammar, style and readability;
 (ii) technical support in implementing, refactoring and debugging the simulation scripts;
-and (iii) preliminary literature discovery. The research conception, methodology, algorithm
+and (iii) preliminary literature discovery, verification of reference metadata (volumes, page ranges and DOI resolution) and checks of journal formatting requirements. The research conception, methodology, algorithm
 and model design, experimental setup, parameter selection, and all data generation, processing
 and analysis were carried out entirely by the authors; no AI tool had access to, or was used
 in connection with, any research data. All AI-assisted outputs---including code, suggested

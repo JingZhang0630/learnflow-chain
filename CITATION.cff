@@ -16,7 +16,8 @@ authors:
   - family-names: Kim
     given-names: Jin-whan
     affiliation: Youngsan University
+    orcid: "https://orcid.org/0000-0002-1912-0657"
 license: Apache-2.0
-repository-code: "https://github.com/JingZhang0630/monet-submission"
+repository-code: "https://github.com/JingZhang0630/learnflow-chain"
 doi: 10.5281/zenodo.24097495
 url: "https://doi.org/10.5281/zenodo.24097495"
