@@ -743,15 +743,15 @@ A consortium has $K$ institutions; institution $k$ holds learning events of its 
 
 \begin{widefigure}
 \centering
-\resizebox{0.9\textwidth}{!}{% Architecture figure (TikZ), included from sections/04_design.tex.
+\resizebox{0.96\textwidth}{!}{% Architecture figure (TikZ), included from sections/04_design.tex.
 \begin{tikzpicture}[
-  font=\footnotesize, >=Stealth,
+  font=\small, >=Stealth,
   box/.style={draw, rounded corners=2pt, align=center, inner sep=3pt, minimum height=1.0cm, text width=3.5cm, execute at begin node={\hyphenpenalty=10000\relax}},
   inst/.style={box, fill=blue!6},
   chain/.style={box, fill=orange!12},
   coord/.style={box, fill=green!8},
   off/.style={box, fill=gray!10},
-  lab/.style={font=\small, align=center, fill=white, inner sep=1pt}
+  lab/.style={font=\normalsize, align=center, fill=white, inner sep=1pt}
 ]
 \node[inst] (i1) at (0,2.6) {\textbf{Institution 1}\\local event store\\governance service + PDP\\client: clip + noise};
 \node[inst] (i2) at (0,0.8) {\textbf{Institution 2}\\(same components)};
@@ -770,7 +770,7 @@ A consortium has $K$ institutions; institution $k$ holds learning events of its 
 \draw[->] (co.south) -- node[lab, right=1pt] {result file} (oc.north);
 \draw[->] (oc.east) -- node[lab, above=1pt] {leaf + proof} (au.west);
 \draw[->] (lg.south) -- node[lab, right=1pt] {root, receipt} (au.north);
-\node[font=\scriptsize\itshape, align=center] at (0,-2.0) {raw events and abilities\\never leave the institution};
+\node[font=\footnotesize\itshape, align=center] at (0,-2.0) {raw events and abilities\\never leave the institution};
 \end{tikzpicture}}
 \caption{Architecture. Raw events, per-student quantities, Merkle leaves and proofs stay off chain; the ledger holds identifiers, codes, states, Merkle roots and receipts. The access predicate is evaluated by each institution's policy decision point and by chaincode}
 \label{fig:arch}
@@ -917,7 +917,7 @@ FED reproduces CEN in every run (Table~\ref{tab:real} for the real logs). On syn
 
 \begin{widefigure}
 \centering
-\includegraphics[width=0.66\textwidth]{figures/privacy_utility.pdf}
+\includegraphics[width=0.82\textwidth]{figures/privacy_utility.pdf}
 \caption{Privacy--utility trade-off of DP-FED ($T=\HpT$) and DP-CNT, mean over seeds. Top: test AUC (error bars: s.d.). Bottom: Spearman correlation of private difficulties with the truth (synthetic) or CEN (real). Horizontal lines: non-private FED, CNT and LOC}
 \label{fig:privacy}
 \end{widefigure}
