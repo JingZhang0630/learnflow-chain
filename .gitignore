@@ -9,7 +9,9 @@ __pycache__/
 node_modules/
 
 # Public learning logs are NOT redistributed (see README, Data)
-data/
+# Only the repository-root cache directory is ignored. src/lfchain/data/
+# holds source modules (datasets.py, prep_junyi.py) and MUST be tracked.
+/data/
 *.parquet
 *.npy
 *.bin
